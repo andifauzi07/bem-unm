@@ -26,8 +26,10 @@ const navLink = [
 
 const Navbar = () => {
 	return (
-		<nav className="fixed z-10 bg-[#fefefe] text-black w-full flex justify-between items-center py-2 px-6 drop-shadow-md">
-			<div className="flex items-center">
+		<nav className="fixed bg-[#fefefe] z-10 text-black w-full flex justify-between items-center py-2 px-6 drop-shadow-md">
+			<div
+				className="flex items-center"
+				data-aos="fade-right">
 				<Link href="/">
 					<Image
 						width={77}
@@ -41,10 +43,12 @@ const Navbar = () => {
 					<p className="italic"> Universitas Negeri Makassar</p>
 				</span>
 			</div>
-			<div>
-				<ul className="flex justify-center items-center gap-10">
+			<div data-aos="fade-left">
+				<ul className="flex justify-center items-center">
 					{navLink.map((nav) => (
-						<li key={nav.id}>
+						<li
+							key={nav.id}
+							className="mx-4">
 							<Link href={nav.url}>{nav.title}</Link>
 						</li>
 					))}

@@ -5,10 +5,17 @@ const Blog = () => {
 	return (
 		<div>
 			<div className="w-full text-center">
-				<h1 className="text-[30px] py-4 font-bold text-shadow drop-shadow-md text-shadow">
+				<h1
+					data-aos="fade-up"
+					className="text-[30px] py-4 font-bold text-shadow drop-shadow-md text-shadow">
 					Tetap terhubung dengan <br /> kami
 				</h1>
-				<p className="text-[#8A8888]"> Kunjungi Blog Kami Untuk informasi terkini seputar kegiatan mahasiswa</p>
+				<p
+					data-aos="fade-down"
+					className="text-[#8A8888]">
+					{' '}
+					Kunjungi Blog Kami Untuk informasi terkini seputar kegiatan mahasiswa
+				</p>
 			</div>
 			<div className="mx-auto w-[699px] my-10 bg-[#E4E3E3] rounded-3xl">
 				<div className="flex justify-center items-center gap-4 py-8">

@@ -5,7 +5,9 @@ const Sambutan = () => {
 	return (
 		<div className="bg-[#F2EFEF] text-black px-16 py-8">
 			<div className="flex bg-white drop-shadow-md backdrop-blur-[15px] rounded-xl my-16">
-				<div className="w-1/2 relative">
+				<div
+					className="w-1/2 relative"
+					data-aos="fade-right">
 					<Image
 						src={PresidenBem}
 						alt="Presiden Bem"
@@ -13,7 +15,9 @@ const Sambutan = () => {
 					/>
 					<h1 className="text-shadow text-4xl pt-16 pl-16">Hasrul</h1>
 				</div>
-				<div className="w-1/2 px-16">
+				<div
+					className="w-1/2 px-16"
+					data-aos="fade-left">
 					<h1 className="text-[30px] py-4 font-bold text-shadow drop-shadow-md text-shadow">Sambutan Presiden BEM UNM</h1>
 					<p className="text-xs pb-8">
 						Assalamu alaikum Warahmatullahi Wabarakatuh. <br /> <br /> Hidup Mahasiswa <br /> Hidup Mahasiswa <br /> Dan Hidup Seluruh Rakyat Yang Tertindas <br /> <br /> Segala puja dan puji kepada Tuhan yang Maha Esa, yang maha kasih dan

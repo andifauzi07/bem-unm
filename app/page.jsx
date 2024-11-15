@@ -5,7 +5,7 @@ import Blog from '@/components/section/Beranda/blog';
 
 export default function Home() {
 	return (
-		<main className="w-full bg-primary text-black">
+		<main className="bg-primary w-full text-black">
 			<Jumbotron />
 			<Kementerian />
 			<Sambutan />

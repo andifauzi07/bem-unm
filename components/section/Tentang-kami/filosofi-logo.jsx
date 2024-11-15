@@ -1,16 +1,16 @@
 import Image from 'next/image';
 
 const imageUrl = [
-	{ id: '1', url: '/logo kabinet 1.svg' },
-	{ id: '2', url: '/logo kabinet 2.svg' },
-	{ id: '3', url: '/logo kabinet 3.svg' },
+	{ id: '1', url: '/logo kabinet 1.svg', animate: 'fade-right' },
+	{ id: '2', url: '/logo kabinet 2.svg', animate: 'fade-left' },
+	{ id: '3', url: '/logo kabinet 3.svg', animate: 'fade-up' },
 ];
 
 function FilosofiLogo() {
 	return (
 		<div className="mb-6">
 			<div className="w-full px-8 py-4 text-center my-8">
-				<h1 className="text-[36px]">Filosofi Logo Kabinet</h1>
+				<h1 className="text-[36px] text-shadow">Filosofi Logo Kabinet</h1>
 			</div>
 			<div className="w-full justify-center flex flex-wrap">
 				{imageUrl.map((image) => (
@@ -20,6 +20,7 @@ function FilosofiLogo() {
 						width={464}
 						height={363}
 						alt={`logo kabinet ${image.id}`}
+						data-aos={image.animate}
 					/>
 				))}
 			</div>
