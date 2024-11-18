@@ -20,7 +20,7 @@ const socialLinks = [
 
 const Footer = () => {
 	return (
-		<div className="w-full gap-4 px-8 py-4 flex justify-center bg-footerColor text-white">
+		<div className="w-full gap-4 px-8 py-4 flex justify-center bg-[#181818] text-white">
 			<div className="w-1/6 flex items-start justify-end">
 				<Image
 					src="/FooterLogo.svg"

@@ -23,10 +23,12 @@ const VisiMisi = () => {
 					</p>
 				</div>
 				<div className="w-1/2 mx-2 my-4 p-8">
-					<p>
-						Kabinet BEM hadir sebagai motor penggerak perubahan dan wadah aspirasi bagi seluruh mahasiswa. Dengan visi dan misi yang kuat, kabinet ini terdiri dari mahasiswa-mahasiswa yang siap berkolaborasi, berinovasi, dan berdedikasi
-						untuk menciptakan lingkungan kampus yang lebih inklusif, aktif, dan inspiratif. Dalam Kabinet BEM, setiap anggota membawa semangat untuk mendengar, beraksi, dan melayani demi kebaikan{' '}
-					</p>
+					<ol>
+						<li>Menciptakan lingkungan kelembagaan yang sehat dan berintegritas</li>
+						<li>Proaktif dalam pengawalan internal dan eksternal</li>
+						<li>Optimalisasi sumber daya mahasiswa dalam mewujudkan tridharma perguruan tinggi</li>
+						<li>Kolaborasi multisektor</li>
+					</ol>
 				</div>
 			</div>
 		</div>
