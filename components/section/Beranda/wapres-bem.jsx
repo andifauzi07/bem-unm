@@ -52,7 +52,7 @@ const WapresBem = () => {
 				data-aos="fade-left">
 				<div className="flex justify-center relative items-end">
 					<div className="absolute -left-20 bottom-6">
-						<h2 className="text-2xl text-shadow font-semibold">Muhammad Syarif</h2>
+						<h2 className="text-2xl font-semibold">Muhammad Syarif</h2>
 						<p className="text-[#E15600] font-bold">Wakil Presiden Mahasiswa</p>
 					</div>
 					<Image
