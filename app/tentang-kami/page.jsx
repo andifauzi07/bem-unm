@@ -1,14 +1,21 @@
 import HeroSection from '@/components/section/Tentang-kami/kabinet-kolaboratif';
 import VisiMisi from '@/components/section/Tentang-kami/visi-misi';
 import FilosofiLogo from '@/components/section/Tentang-kami/filosofi-logo';
+import FungsiKabinet from '@/components/section/Tentang-kami/fungsi-kabinet';
+import DeskripsiLogo from '@/components/section/Tentang-kami/deskripsi-logo';
 
 const TentangKami = () => {
 	return (
 		<main className="w-full bg-primary">
-			<div className="w-full px-36">
+			<div className="py-28 px-16">
+				<DeskripsiLogo />
+			</div>
+			<div className="w-ful bg-[#eaeaea]">
+				<FungsiKabinet />
+			</div>
+			<div className="w-full px-16">
 				<HeroSection />
 				<VisiMisi />
-				<div className="w-full border-b-[3px] border-[#2B2930]" />
 			</div>
 			<div className="w-full px-36">
 				<FilosofiLogo />

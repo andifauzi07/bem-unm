@@ -4,11 +4,12 @@ import Image from 'next/image';
 const Blog = () => {
 	return (
 		<div className="bg-[#e4e4e4]">
-			<div className="w-full text-center">
+			<div className="w-full text-start pl-[202px]">
 				<h1
 					data-aos="fade-up"
-					className="text-[70px] py-4 font-bold text-shadow drop-shadow-md text-shadow">
-					Tetap terhubung dengan <br /> kami
+					className="text-[70px] py-4 leading-none font-bold text-shadow drop-shadow-md text-shadow">
+					Tetap terhubung <br />
+					dengan <span className="text-[#E15600]"> kami</span>
 				</h1>
 				<p
 					data-aos="fade-down"

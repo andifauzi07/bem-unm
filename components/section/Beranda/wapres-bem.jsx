@@ -5,7 +5,9 @@ import Link from 'next/link';
 const WapresBem = () => {
 	return (
 		<div className="text-black flex ml-16 px-8 mt-8 bg-white">
-			<div className="w-3/5">
+			<div
+				className="w-3/5"
+				data-aos="fade-right">
 				<h1 className="text-[70px] font-bold">
 					Kabinet <span className="text-[#E15701]">Kolaboratif</span>
 				</h1>
@@ -45,9 +47,11 @@ const WapresBem = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-2/5">
+			<div
+				className="w-2/5"
+				data-aos="fade-left">
 				<div className="flex justify-center relative items-end">
-					<div className="absolute -left-20">
+					<div className="absolute -left-20 bottom-6">
 						<h2 className="text-2xl text-shadow font-semibold">Muhammad Syarif</h2>
 						<p className="text-[#E15600] font-bold">Wakil Presiden Mahasiswa</p>
 					</div>
