@@ -7,7 +7,7 @@ const Blog = () => {
 			<div className="w-full text-start pl-[202px]">
 				<h1
 					data-aos="fade-up"
-					className="text-[70px] py-4 leading-none font-bold text-shadow drop-shadow-md text-shadow">
+					className="text-[70px] py-4 leading-none font-bold drop-shadow-md">
 					Tetap terhubung <br />
 					dengan <span className="text-[#E15600]"> kami</span>
 				</h1>
@@ -28,8 +28,8 @@ const Blog = () => {
 							alt="Sekretaris kabinet"
 						/>
 						<div>
-							<h1 className="font-semibold">Afifah Aprilia</h1>
-							<p className="text-[#E15701]">Sekretaris Kabinet</p>
+							<h1 className=" text-2xl font-semibold">Afifah Aprilia</h1>
+							<p className="text-[#E15701] font-bold">Sekretaris Kabinet</p>
 						</div>
 					</div>
 				</div>
