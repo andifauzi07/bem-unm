@@ -3,16 +3,20 @@ import Image from 'next/image';
 
 const Jumbotron = () => {
 	return (
-		<div className="image w-full h-screen bg-no-repeat bg-cover bg-center">
-			<div className="flex flex-col w-full justify-center items-center h-full">
-				{/* <h2 className="leading-9 text-4xl m-20">"Selamat Datang di Website Resmi"</h2> */}
-				<div className="text-center mt-40">
-					<h1 className="text-[70px] font-bold text-shadow">Badan Eksekutif Mahasiswa</h1>
-					<h2 className="text-5xl text-shadow">Universitas Negeri Makassar</h2>
+		<div className="image w-full h-screen bg-no-repeat bg-cover bg-center mx-auto">
+			<div className="flex flex-col justify-center items-center h-screen">
+				<div
+					className="text-center mt-20 text-white"
+					data-aos="fade-down">
+					<h1 className="text-[70px] font-bold text-shadow">Spirit Kolaborasi Multisektor</h1>
+					<h2 className="text-5xl text-shadow">
+						Kabinet Kolaboratif Periode <br /> 2024-2025
+					</h2>
 				</div>
 				<Link
+					data-aos="fade-up"
 					href="/kontak"
-					className="mt-8 border-[3px] text-white py-2 px-4 rounded-xl flex gap-1">
+					className="mt-6 border-[3px] text-white py-2 px-4 rounded-xl flex gap-1">
 					Saatnya Bersuara
 					<Image
 						src="/icon/buttonIcon.svg"

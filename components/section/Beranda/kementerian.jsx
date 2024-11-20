@@ -31,19 +31,26 @@ const dataKementerian = [
 const Kementerian = () => {
 	return (
 		<div className="text-black p-4 my-[28px]">
-			<div className="flex flex-col justify-center items-center w-full my-12">
-				<h1 className="text-5xl font-bold">Landskap Kementerian BEM UNM</h1>
+			<div className="flex flex-col justify-center items-center my-12">
+				<h1 className="text-5xl font-bold text-center">
+					Landskap{' '}
+					<span className="text-[#E15701]">
+						Kementerian <br /> BEM
+					</span>{' '}
+					UNM
+				</h1>
 				<p className="text-[#8A8888]">Terdapat 5 kementerian yang hadir dalam Kabinet Kolaboratif BEM UNM saat ini </p>
 			</div>
-			<div className="flex gap-8 justify-center items-center">
+			<div className="flex gap-4 justify-center items-center">
 				{dataKementerian.map((data) => (
 					<div
 						key={data.id}
-						className=" flex flex-col justify-center w-full items-center text-center">
+						data-aos="fade-right"
+						className="flex flex-col justify-center w-full items-center text-center">
 						<Image
 							src={data.icon}
-							width={100}
-							height={103}
+							width={90}
+							height={93}
 							alt={data.title}
 						/>
 						<h4 className="my-8 font-bold">{data.title}</h4>

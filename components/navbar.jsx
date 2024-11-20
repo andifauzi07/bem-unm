@@ -1,12 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Dropdown from './dropdown';
 
 const navLink = [
-	{
-		id: '1',
-		title: 'Kementerian',
-		url: '/kementerian',
-	},
 	{
 		id: '2',
 		title: 'Artikel',
@@ -26,25 +22,32 @@ const navLink = [
 
 const Navbar = () => {
 	return (
-		<nav className="fixed z-10 bg-[#fefefe] text-black w-full flex justify-between items-center py-2 px-6 drop-shadow-md">
-			<div className="flex items-center">
-				<Link href="/">
+		<nav className="fixed bg-[#fefefe] z-10 text-black w-full flex justify-between items-center py-2 px-6 drop-shadow-md">
+			<Link href="/">
+				<div
+					className="flex items-center"
+					data-aos="fade-right">
 					<Image
 						width={77}
 						height={53}
 						src="/logo.png"
 						alt="Logo"
 					/>
-				</Link>
-				<span>
-					<p className="font-bold">Badan Eksekutif Mahasiswa</p>
-					<p className="italic"> Universitas Negeri Makassar</p>
-				</span>
-			</div>
-			<div>
-				<ul className="flex justify-center items-center gap-10">
+					<span>
+						<p className="font-bold">Badan Eksekutif Mahasiswa</p>
+						<p className="italic"> Universitas Negeri Makassar</p>
+					</span>
+				</div>
+			</Link>
+			<div data-aos="fade-left">
+				<ul className="flex justify-center items-center">
+					<li>
+						<Dropdown />
+					</li>
 					{navLink.map((nav) => (
-						<li key={nav.id}>
+						<li
+							key={nav.id}
+							className="mx-4">
 							<Link href={nav.url}>{nav.title}</Link>
 						</li>
 					))}
