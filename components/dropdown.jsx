@@ -1,14 +1,58 @@
 'use client';
+
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function Dropdown() {
 	const [isOpen, setIsOpen] = useState(false);
+	const dropdownRef = useRef(null); // Menyimpan referensi dropdown
+	const router = useRouter();
 
-	const toggleDropdown = () => setIsOpen(!isOpen);
+	const toggleDropdown = (e) => {
+		e.preventDefault();
+		setIsOpen((prev) => !prev);
+	};
+
+	const closeDropdown = () => {
+		setIsOpen(false);
+	};
+
+	// Menutup dropdown saat URL berubah
+	useEffect(() => {
+		const handleRouteChange = () => {
+			setIsOpen(false); // Menutup dropdown ketika navigasi ke halaman lain
+		};
+
+		if (router && router.events) {
+			router.events.on('routeChangeStart', handleRouteChange);
+			return () => {
+				router.events.off('routeChangeStart', handleRouteChange);
+			};
+		}
+	}, [router]);
+
+	// Menutup dropdown ketika klik di luar dropdown
+	useEffect(() => {
+		const handleClickOutside = (event) => {
+			if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+				setIsOpen(false); // Menutup dropdown jika klik di luar elemen
+			}
+		};
+
+		// Menambahkan event listener untuk klik di luar
+		document.addEventListener('mousedown', handleClickOutside);
+
+		// Menghapus event listener saat komponen dibersihkan
+		return () => {
+			document.removeEventListener('mousedown', handleClickOutside);
+		};
+	}, []);
 
 	return (
-		<div className="relative inline-block text-left">
+		<div
+			className="relative inline-block text-left"
+			ref={dropdownRef}>
 			{/* Button untuk membuka dropdown */}
 			<button
 				onClick={toggleDropdown}
@@ -41,31 +85,36 @@ export default function Dropdown() {
 						<Link
 							href="/pendidikan-dan-kebudayaan"
 							className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
-							role="menuitem">
+							role="menuitem"
+							onClick={closeDropdown}>
 							Pendidikan & Kebudayaan
 						</Link>
 						<Link
 							href="/riset-dan-pengembangan-organisasi"
 							className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
-							role="menuitem">
+							role="menuitem"
+							onClick={closeDropdown}>
 							Riset & Pengembangan Organisasi
 						</Link>
 						<Link
 							href="/sosial-dan-politik"
 							className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
-							role="menuitem">
+							role="menuitem"
+							onClick={closeDropdown}>
 							Sosial & Politik
 						</Link>
 						<Link
 							href="/media-dan-propaganda"
 							className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
-							role="menuitem">
+							role="menuitem"
+							onClick={closeDropdown}>
 							Media & Propaganda
 						</Link>
 						<Link
 							href="/perekonomian"
 							className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
-							role="menuitem">
+							role="menuitem"
+							onClick={closeDropdown}>
 							Perekonomian
 						</Link>
 					</div>

@@ -1,25 +1,27 @@
 import Image from 'next/image';
-import Presbem from '@/public/PresidenBem.png';
+// import Presbem from '@/public/PresidenBem.png';
 
 const PresidenBem = () => {
 	return (
 		<div className="bg-[#F2EFEF] text-black px-16 flex drop-shadow-md">
 			<div
-				className="w-1/2 relative px-8"
+				className="w-1/2 px-8"
 				data-aos="fade-right">
-				<div className="absolute bottom-[200px] text-right">
-					<h1 className="text-shadow text-4xl">Hasrul</h1>
-					<p className="text-[#E15701] font-bold">Presiden BEM UNM</p>
-				</div>
 				<Image
-					src={Presbem}
+					src="/PresidenBem.png"
+					width={800}
+					height={0}
 					alt="Presiden Bem"
 				/>
+				<div className="relative right-[400px] bottom-[80px] text-right">
+					<h1 className="font-bold text-4xl">Hasrul</h1>
+					<p className="text-[#E15701] font-bold">Presiden BEM UNM</p>
+				</div>
 			</div>
 			<div
 				className="w-1/2 px-8"
 				data-aos="fade-left">
-				<h1 className="text-[30px] py-4 font-bold text-shadow drop-shadow-md text-shadow">
+				<h1 className="text-4xl py-4 font-bold drop-shadow-md">
 					Sambutan Presiden <br /> <span className="text-[#E15701]"> BEM UNM</span>
 				</h1>
 				<p className="text-xs pb-8">
