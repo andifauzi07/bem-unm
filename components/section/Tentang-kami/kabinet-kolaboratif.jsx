@@ -4,15 +4,15 @@ import Link from 'next/link';
 
 const HeroSection = () => {
 	return (
-		<div className="w-full flex gap-16 py-[340px] px-5 justify-center items-center h-screen">
+		<div className="w-full flex lg:flex-row flex-col lg:gap-16 lg:py-[340px] lg:px-5 px-2 justify-center items-center lg:h-screen">
 			<Image
 				src={Logo}
 				alt="logo-kabinet"
 				data-aos="fade-down"
-				className="w-2/5"
+				className="lg:w-2/5"
 			/>
-			<div className="w-3/5">
-				<h1 className="text-[60px] font-bold py-3">
+			<div className="lg:w-3/5">
+				<h1 className="lg:text-[60px] hidden lg:block text-3xl font-bold lg:py-3">
 					Kabinet <span className="text-[#E15600]">Kolaboratif</span>
 				</h1>
 				<p

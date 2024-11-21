@@ -20,21 +20,25 @@ const socialLinks = [
 
 const Footer = () => {
 	return (
-		<div className="w-full gap-4 px-8 py-4 flex justify-center bg-[#181818] text-white">
-			<div className="w-1/6 flex items-start justify-end">
+		<div className="w-full gap-4 lg:px-8 py-4 flex lg:flex-row flex-col justify-center bg-[#181818] text-white">
+			<div className="lg:w-1/6 flex lg:items-start items-center justify-center lg:justify-end">
 				<Image
 					src="/FooterLogo.svg"
 					width={86}
 					height={92}
 					alt="Logo Footer"
 				/>
-			</div>
-			<div className="flex flex-col justify-start gap-[34px] w-2/6">
-				<div>
+				<div className="lg:hidden block">
 					<p className="font-bold">Badan Eksekutif Mahasiswa</p>
 					<p className="italic"> Universitas Negeri Makassar</p>
 				</div>
-				<div>
+			</div>
+			<div className="flex flex-col lg:justify-start justify-center gap-[34px] px-4 lg:px-0 lg:w-2/6">
+				<div className="lg:block hidden">
+					<p className="font-bold">Badan Eksekutif Mahasiswa</p>
+					<p className="italic"> Universitas Negeri Makassar</p>
+				</div>
+				<div className="text-center lg:text-left lg:block flex justify-center items-center flex-col">
 					<span className="flex gap-4 py-2">
 						<Image
 							src="/icon/HomeIcon.svg"
@@ -65,7 +69,7 @@ const Footer = () => {
 					<span className="flex gap-4 py-2">
 						<p>Dikelola Oleh Kementrian Media dan Propaganda Badan Eksekutif Mahasiswa Universitas Negeri Makassar</p>
 					</span>
-					<span className="flex gap-4 py-4">
+					<span className="flex justify-center lg:justify-start gap-4 py-4">
 						{socialLinks.map((social) => (
 							<a
 								href={social.url}
@@ -82,7 +86,7 @@ const Footer = () => {
 					</span>
 				</div>
 			</div>
-			<div className="flex justify-end items-end w-4/6">
+			<div className="flex lg:justify-end justify-center items-end lg:w-4/6">
 				<p>BEM UNM© 2024 All Rights Reserved</p>
 			</div>
 		</div>

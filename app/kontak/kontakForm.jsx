@@ -3,7 +3,7 @@ import React from 'react';
 const KontakFormulir = () => {
 	return (
 		<div
-			className="w-1/2 py-6"
+			className="lg:w-1/2 py-6"
 			data-aos="fade-right">
 			<div className="flex items-center justify-center">
 				<div className="w-full max-w-md p-6 border-solid border-2 border-[#D9D9D9]  bg-white rounded-lg shadow-lg">

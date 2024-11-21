@@ -23,11 +23,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+			<meta
+				name="viewport"
+				content="width=device-width, initial-scale=1.0"
+			/>
 			<body className={`${geistSans.variable} ${geistMono.variable} text-black`}>
 				<WrapperAnmimation>
-					<Navbar />
-					{children}
-					<Footer />
+					<div className="w-full overflow-hidden">
+						<Navbar />
+						{children}
+						<Footer />
+					</div>
 				</WrapperAnmimation>
 			</body>
 		</html>
