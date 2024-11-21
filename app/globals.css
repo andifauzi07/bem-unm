@@ -24,41 +24,76 @@ body {
 	overflow-x: hidden;
 }
 
-.image {
-	background-image: linear-gradient(to top, #e15701cc, #ee9f6e74), url('/home-image.jpg');
-	background-position-y: 70px;
-}
+@media (max-width: 768px) {
+	.imageResponsif {
+		background-position: center;
+		background-size: contain;
+		background-image: linear-gradient(to top, #e15701cc, #ee9f6e74), url('/home-image.jpg');
+	}
+	.pendidikan {
+		background-size: contain;
+		background-image: url('/kementrian/pendidikan.jpg');
+		background-position-y: 60px;
+	}
+	.riset {
+		background-size: contain;
+		background-image: url('/kementrian/riset.jpg');
+		background-position-y: 70px;
+	}
+	.sosial {
+		background-size: contain;
+		background-image: url('/kementrian/sosial.jpg');
+		background-position-y: 70px;
+	}
 
-.pendidikan {
-	background-image: url('/kementrian/pendidikan.jpg');
-	background-position-y: 60px;
-	background-position-x: -250px;
-}
+	.media {
+		background-size: contain;
+		background-image: url('/kementrian/media.jpg');
+		background-position-y: 70px;
+	}
 
-.riset {
-	background-image: url('/kementrian/riset.jpg');
-	background-position-x: -250px;
-	background-position-y: 70px;
+	.ekonomi {
+		background-size: contain;
+		background-image: url('/kementrian/ekonomi.jpg');
+		background-position-y: 70px;
+	}
 }
+@media (min-width: 768px) {
+	.image {
+		background-image: linear-gradient(to top, #e15701cc, #ee9f6e74), url('/home-image.jpg');
+		background-position-y: 70px;
+	}
 
-.sosial {
-	background-position-x: -250px;
-	background-image: url('/kementrian/sosial.jpg');
-	background-position-y: 70px;
+	.pendidikan {
+		background-image: url('/kementrian/pendidikan.jpg');
+		background-position-x: -250px;
+		background-position-y: 60px;
+	}
+
+	.riset {
+		background-image: url('/kementrian/riset.jpg');
+		background-position-x: -250px;
+		background-position-y: 70px;
+	}
+
+	.sosial {
+		background-image: url('/kementrian/sosial.jpg');
+		background-position-x: -250px;
+		background-position-y: 70px;
+	}
+
+	.media {
+		background-image: url('/kementrian/media.jpg');
+		background-position-x: -250px;
+		background-position-y: 70px;
+	}
+
+	.ekonomi {
+		background-image: url('/kementrian/ekonomi.jpg');
+		background-position-x: -250px;
+		background-position-y: 70px;
+	}
 }
-
-.media {
-	background-image: url('/kementrian/media.jpg');
-	background-position-y: 70px;
-	background-position-x: -250px;
-}
-
-.ekonomi {
-	background-image: url('/kementrian/ekonomi.jpg');
-	background-position-y: 70px;
-	background-position-x: -250px;
-}
-
 .text-shadow {
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

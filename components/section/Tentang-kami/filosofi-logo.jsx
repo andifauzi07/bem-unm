@@ -10,12 +10,12 @@ function FilosofiLogo() {
 	return (
 		<div className="mb-6">
 			<div className="w-full px-8 py-4 text-center my-8">
-				<h1 className="text-[36px] font-bold">
+				<h1 className="lg:text-[36px] text-3xl font-bold">
 					{' '}
 					<span className="text-[#E15600]">Filosofi</span> Logo Kabinet
 				</h1>
 			</div>
-			<div className="w-full justify-center flex flex-wrap">
+			<div className="w-full justify-center flex flex-wrap px-6 lg:px-0">
 				{imageUrl.map((image) => (
 					<Image
 						key={image.id}

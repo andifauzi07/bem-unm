@@ -39,13 +39,13 @@ const socialLinks = [
 const KontakDetail = () => {
 	return (
 		<div
-			className="w-1/2"
+			className="lg:w-1/2"
 			data-aos="fade-left">
 			<div>
 				{detailLinks.map((data) => (
 					<span
 						key={data.id}
-						className="flex items-center my-8 mx-6 gap-8 text-black">
+						className="flex items-center my-8 lg:mx-6 gap-8 text-black">
 						<Image
 							src={data.icon}
 							width={36}
@@ -55,7 +55,7 @@ const KontakDetail = () => {
 						<h3>{data.title}</h3>
 					</span>
 				))}
-				<span className="flex flex-row items-center my-8 mx-6 gap-8">
+				<span className="flex justify-center lg:justify-start flex-row items-center my-8 mx-6 gap-8">
 					{socialLinks.map((social) => (
 						<a
 							href={social.url}

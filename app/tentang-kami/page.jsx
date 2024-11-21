@@ -7,7 +7,7 @@ import DeskripsiLogo from '@/components/section/Tentang-kami/deskripsi-logo';
 const TentangKami = () => {
 	return (
 		<main className="w-full bg-primary">
-			<div className="py-28 px-16">
+			<div className="lg:py-28 lg:px-16">
 				<DeskripsiLogo />
 			</div>
 			<div className="w-ful bg-[#eaeaea]">
@@ -17,7 +17,7 @@ const TentangKami = () => {
 				<HeroSection />
 				<VisiMisi />
 			</div>
-			<div className="w-full px-36">
+			<div className="w-full lg:px-36">
 				<FilosofiLogo />
 			</div>
 		</main>
