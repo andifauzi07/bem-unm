@@ -14,7 +14,7 @@ const socialLinks = [
 	{
 		id: '3',
 		url: 'https://youtube.com',
-		icon: '/icon/Youtube.svg',
+		icon: '/icon/YouTube.svg',
 	},
 ];
 
