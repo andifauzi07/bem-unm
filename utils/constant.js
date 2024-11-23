@@ -20,3 +20,31 @@ export const fungsiBem = [
 		desc: 'Berperan aktif dalam menyikapi isu-isu strategis yang berkaitan dengan pendidikan, kebijakan publik, dan kondisi sosial-budaya, serta mendorong mahasiswa untuk berperan sebagai agent of change dalam masyarakat.',
 	},
 ];
+
+export const proker = [
+	{
+		id: '1',
+		kementrian: 'Pendidikan & Kebudayaan',
+		program: ['National Advance Training'],
+	},
+	{
+		id: '2',
+		kementrian: 'Riset & Pengembangan Organisasi',
+		program: ['Benchmarking', 'Seminar Riset: Dari Opini Menjadi Fakta'],
+	},
+	{
+		id: '3',
+		kementrian: 'Sosial & Politik',
+		program: ['Debat Kancah Nasional'],
+	},
+	{
+		id: '4',
+		kementrian: 'Media & Propaganda',
+		program: ['Pembuatan & Pengembangan Website BEM UNM'],
+	},
+	{
+		id: '5',
+		kementrian: 'Perekonomian',
+		program: ['Festival UMKM', 'Economic Talks'],
+	},
+];

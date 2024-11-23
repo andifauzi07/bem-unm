@@ -23,7 +23,7 @@ const HeroSection = () => {
 				</p>
 				<div className="flex py-6">
 					<Link
-						href="/kontak"
+						href="/tentang-kami/struktur-kabinet"
 						className="bg-gradient-to-r from-[#FFCC00] to-[#F45D00] text-white py-2 px-4 rounded-xl flex gap-1 items-center">
 						Struktur Kabinet
 						<Image
