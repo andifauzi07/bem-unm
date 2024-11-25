@@ -8,8 +8,8 @@ const Jumbotron = () => {
 				<div
 					className="text-center lg:mt-20 text-white"
 					data-aos="fade-down">
-					<h1 className="lg:text-[70px] lg:pb-8 text-3xl font-bold text-shadow">Spirit Kolaborasi Multisektor</h1>
-					<h2 className="lg:text-5xl text-xl text-shadow">
+					<h1 className="lg:text-[70px] lg:pb-8 text-5xl font-bold text-shadow">Spirit Kolaborasi Multisektor</h1>
+					<h2 className="lg:text-5xl text-3xl text-shadow">
 						Kabinet Kolaboratif Periode <br /> 2024-2025
 					</h2>
 				</div>

@@ -27,7 +27,7 @@ body {
 @media (max-width: 768px) {
 	.imageResponsif {
 		background-position: center;
-		background-size: contain;
+		background-size: cover;
 		background-image: linear-gradient(to top, #e15701cc, #ee9f6e74), url('/home-image.jpg');
 	}
 	.pendidikan {
@@ -66,31 +66,31 @@ body {
 
 	.pendidikan {
 		background-image: url('/kementrian/pendidikan.jpg');
-		background-position-x: -250px;
+		/* background-position-x: -250px; */
 		background-position-y: 60px;
 	}
 
 	.riset {
 		background-image: url('/kementrian/riset.jpg');
-		background-position-x: -250px;
+		/* background-position-x: -250px; */
 		background-position-y: 70px;
 	}
 
 	.sosial {
 		background-image: url('/kementrian/sosial.jpg');
-		background-position-x: -250px;
+		/* background-position-x: -250px; */
 		background-position-y: 70px;
 	}
 
 	.media {
 		background-image: url('/kementrian/media.jpg');
-		background-position-x: -250px;
+		/* background-position-x: -250px; */
 		background-position-y: 70px;
 	}
 
 	.ekonomi {
 		background-image: url('/kementrian/ekonomi.jpg');
-		background-position-x: -250px;
+		/* background-position-x: -250px; */
 		background-position-y: 70px;
 	}
 }

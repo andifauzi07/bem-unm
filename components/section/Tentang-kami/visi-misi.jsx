@@ -16,7 +16,7 @@ const VisiMisi = () => {
 			<div
 				data-aos="fade-up"
 				className="bg-tetriary rounded-3xl drop-shadow-md text-lg flex lg:flex-row flex-col w-full justify-center items-center lg:gap-4 text-justify">
-				<div className="lg:w-1/2 lg:mx-2 lg:my-4 p-8">
+				<div className="lg:w-1/2 lg:mx-2 lg:my-4 py-8 px-4">
 					<h3 className="lg:hidden block font-bold text-3xl text-center pb-6">VISI</h3>
 					<p>
 						Kabinet BEM hadir sebagai motor penggerak perubahan dan wadah aspirasi bagi seluruh mahasiswa. Dengan visi dan misi yang kuat, kabinet ini terdiri dari mahasiswa-mahasiswa yang siap berkolaborasi, berinovasi, dan berdedikasi
