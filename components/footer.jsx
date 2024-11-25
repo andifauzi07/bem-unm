@@ -3,17 +3,17 @@ import Image from 'next/image';
 const socialLinks = [
 	{
 		id: '1',
-		url: 'https://twitter.com',
+		url: 'https://twitter.com/bemunmkita',
 		icon: '/icon/Twitter.svg',
 	},
 	{
 		id: '2',
-		url: 'https://instagram.com',
+		url: 'https://instagram.com/bemunm_',
 		icon: '/icon/Instagram.svg',
 	},
 	{
 		id: '3',
-		url: 'https://youtube.com',
+		url: 'https://www.youtube.com/@bemunm9584',
 		icon: '/icon/YouTube.svg',
 	},
 ];

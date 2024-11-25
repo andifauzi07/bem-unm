@@ -13,7 +13,7 @@ const TentangKami = () => {
 			<div className="w-ful bg-[#eaeaea]">
 				<FungsiKabinet />
 			</div>
-			<div className="w-full px-16">
+			<div className="w-full px-6 lg:px-16">
 				<HeroSection />
 				<VisiMisi />
 			</div>

@@ -21,17 +21,17 @@ const detailLinks = [
 const socialLinks = [
 	{
 		id: '1',
-		url: 'https://twitter.com',
+		url: 'https://twitter.com/bemunmkita',
 		icon: '/icon/TwitterBlack.svg',
 	},
 	{
 		id: '2',
-		url: 'https://instagram.com',
+		url: 'https://www.instagram.com/bemunm_',
 		icon: '/icon/InstagramBlack.svg',
 	},
 	{
 		id: '3',
-		url: 'https://youtube.com',
+		url: 'https://www.youtube.com/@bemunm9584',
 		icon: '/icon/YoutubeBlack.svg',
 	},
 ];
