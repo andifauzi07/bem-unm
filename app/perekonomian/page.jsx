@@ -4,7 +4,7 @@ import bagan from '@/public/kementrian/bagan-ekonomi.png';
 const Perekonomian = () => {
 	return (
 		<div>
-			<div className="ekonomi lg:h-screen w-full bg-no-repeat bg-contain lg:bg-cover bg-center lg:pl-[89px] pt-28">
+			<div className="ekonomi lg:h-screen w-full bg-no-repeat bg-contain bg-center lg:pl-[89px] pt-28">
 				<h1
 					data-aos="fade-down"
 					className="lg:text-[58px] text-2xl text-center lg:text-left lg:leading-none font-bold text-white text-shadow mt-10 lg:mt-[160px] mb-10">
@@ -25,6 +25,7 @@ const Perekonomian = () => {
 					src={bagan}
 					alt="bagan mentri pendidikan"
 					className="mx-auto"
+					quality={100}
 				/>
 			</div>
 		</div>

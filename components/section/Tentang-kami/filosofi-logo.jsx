@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
 const imageUrl = [
-	{ id: '1', url: '/logo kabinet 1.svg', animate: 'fade-right' },
-	{ id: '2', url: '/logo kabinet 2.svg', animate: 'fade-left' },
-	{ id: '3', url: '/logo kabinet 3.svg', animate: 'fade-up' },
+	{ id: '1', url: '/logo kabinet 1.svg' },
+	{ id: '2', url: '/logo kabinet 2.svg' },
+	{ id: '3', url: '/logo kabinet 3.svg' },
 ];
 
 function FilosofiLogo() {
@@ -23,7 +23,6 @@ function FilosofiLogo() {
 						width={464}
 						height={363}
 						alt={`logo kabinet ${image.id}`}
-						data-aos={image.animate}
 					/>
 				))}
 			</div>

@@ -8,7 +8,6 @@ const HeroSection = () => {
 			<Image
 				src={Logo}
 				alt="logo-kabinet"
-				data-aos="fade-down"
 				className="lg:w-2/5"
 			/>
 			<div className="lg:w-3/5">
