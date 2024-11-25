@@ -20,7 +20,7 @@ const WapresBem = () => {
 						<div className="p-[3px] rounded-[15px] bg-gradient-to-r from-[#FFCC00] to-[#F45D00]">
 							<div className="bg-white p-2 rounded-xl">
 								<Link
-									href="/kontak"
+									href="/tentang-kami"
 									className="text-[#E15701] lg:text-base text-[12px] flex items-center gap-1">
 									Selengkapnya
 									<Image
@@ -61,6 +61,7 @@ const WapresBem = () => {
 						alt="Wakil Presiden Bem Unm"
 						width={300}
 						height={0}
+						quality={100}
 					/>
 				</div>
 			</div>

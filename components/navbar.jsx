@@ -1,5 +1,7 @@
 'use client';
+
 import { useState, useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import Dropdown from './dropdown';
@@ -24,31 +26,32 @@ const navLink = [
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
-	const navbarRef = useRef(null); // Referensi untuk navbar
+	const navbarRef = useRef(null);
+	const path = usePathname();
 
 	const closeMenu = () => {
 		setMenuOpen(false);
 	};
 
-	// Menggunakan useEffect untuk menambahkan event listener untuk klik di luar navbar
 	useEffect(() => {
-		// Fungsi untuk menutup navbar jika klik di luar navbar atau dropdown
 		const handleClickOutside = (event) => {
 			if (navbarRef.current && !navbarRef.current.contains(event.target)) {
 				closeMenu();
 			}
 		};
 
-		// Menambahkan event listener untuk mousedown dan touchstart
 		document.addEventListener('mousedown', handleClickOutside);
 		document.addEventListener('touchstart', handleClickOutside);
 
-		// Membersihkan event listener ketika komponen dilepas
 		return () => {
 			document.removeEventListener('mousedown', handleClickOutside);
 			document.removeEventListener('touchstart', handleClickOutside);
 		};
 	}, []);
+
+	useEffect(() => {
+		closeMenu();
+	}, [path]);
 
 	return (
 		<nav
@@ -72,7 +75,6 @@ const Navbar = () => {
 			<div
 				className="lg:hidden"
 				onClick={() => setMenuOpen(!menuOpen)}>
-				{/* Hamburger Menu */}
 				<button aria-label="Toggle Menu">
 					<div className="space-y-1">
 						<span className="block w-6 h-0.5 bg-black"></span>

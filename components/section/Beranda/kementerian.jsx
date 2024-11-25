@@ -41,7 +41,7 @@ const Kementerian = () => {
 				</h1>
 				<p className="text-[#8A8888] text-center">Terdapat 5 kementerian yang hadir dalam Kabinet Kolaboratif BEM UNM saat ini </p>
 			</div>
-			<div className="flex lg:gap-4 gap-y-1 justify-center items-center w-full">
+			<div className="flex lg:gap-3 gap-y-1 justify-center items-center w-full">
 				{dataKementerian.map((data) => (
 					<div
 						key={data.id}
@@ -51,10 +51,10 @@ const Kementerian = () => {
 							src={data.icon}
 							width={90}
 							height={93}
-							className="lg:w-24 lg:h-24 w-11 h-11"
+							className="lg:w-20 lg:h-20 w-11 h-11"
 							alt={data.title}
 						/>
-						<h4 className="lg:my-8 text-[8px] lg:text-lg font-bold">{data.title}</h4>
+						<h4 className="lg:my-8 text-[8px] lg:text-sm font-bold">{data.title}</h4>
 					</div>
 				))}
 			</div>

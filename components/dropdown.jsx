@@ -1,13 +1,13 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 
 export default function Dropdown() {
 	const [isOpen, setIsOpen] = useState(false);
-	const dropdownRef = useRef(null); // Menyimpan referensi dropdown
-	const router = useRouter();
+	const dropdownRef = useRef(null);
+	const path = usePathname();
 
 	const toggleDropdown = (e) => {
 		e.preventDefault();
@@ -18,32 +18,19 @@ export default function Dropdown() {
 		setIsOpen(false);
 	};
 
-	// Menutup dropdown saat URL berubah
 	useEffect(() => {
-		const handleRouteChange = () => {
-			setIsOpen(false); // Menutup dropdown ketika navigasi ke halaman lain
-		};
+		setIsOpen(false);
+	}, [path]);
 
-		if (router && router.events) {
-			router.events.on('routeChangeStart', handleRouteChange);
-			return () => {
-				router.events.off('routeChangeStart', handleRouteChange);
-			};
-		}
-	}, [router]);
-
-	// Menutup dropdown ketika klik di luar dropdown
 	useEffect(() => {
 		const handleClickOutside = (event) => {
 			if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-				setIsOpen(false); // Menutup dropdown jika klik di luar elemen
+				setIsOpen(false);
 			}
 		};
 
-		// Menambahkan event listener untuk klik di luar
 		document.addEventListener('mousedown', handleClickOutside);
 
-		// Menghapus event listener saat komponen dibersihkan
 		return () => {
 			document.removeEventListener('mousedown', handleClickOutside);
 		};
@@ -53,7 +40,6 @@ export default function Dropdown() {
 		<div
 			className="relative inline-block text-left"
 			ref={dropdownRef}>
-			{/* Button untuk membuka dropdown */}
 			<button
 				onClick={toggleDropdown}
 				className="inline-flex items-center w-full justify-center border-gray-300 bg-white px-4 py-2 text-black">
@@ -74,7 +60,6 @@ export default function Dropdown() {
 				</svg>
 			</button>
 
-			{/* Dropdown Menu */}
 			{isOpen && (
 				<div
 					className="absolute right-0 z-20 bg-white mt-2 w-56 origin-top-right rounded-md shadow-lg"

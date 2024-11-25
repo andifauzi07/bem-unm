@@ -9,12 +9,13 @@ const Artikel = () => {
 			<Header />
 			<div className="w-full mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-4 p-8 my-16">
 				{artikel.map((data) => (
-					<Link href={`/artikel/${data.id}`}>
+					<Link
+						href={`/artikel/${data.id}`}
+						key={data.id}>
 						<Card
 							date={data.tanggal}
 							imageUrl={data.gambar_headline.url}
-							tipe="Press Release"
-							key={data.id}
+							tipe="Artikel"
 							shortDesc={''}
 							title={data.title}
 						/>

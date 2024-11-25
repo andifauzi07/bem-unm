@@ -8,14 +8,14 @@ const Blog = () => {
 		<div className="bg-[#e4e4e4]">
 			<div className="w-full text-center lg:text-center px-4">
 				<h1
-					data-aos="fade-up"
-					className="lg:text-[70px] text-4xl lg:py-4 py-8 leading-none font-bold drop-shadow-md">
-					Tetap terhubung <br />
-					dengan <span className="text-[#E15600]"> kami</span>
+					data-aos="fade-down"
+					className="lg:text-5xl text-3xl lg:py-4 py-8 leading-none font-bold drop-shadow-md">
+					Tetap Terhubung <br />
+					Dengan <span className="text-[#E15600]"> Kami</span>
 				</h1>
 				<p
-					data-aos="fade-down"
-					className="text-[#8A8888] lg:text-2xl text-lg">
+					data-aos="fade-up"
+					className="text-[#8A8888] lg:text-xl font-semibold text-lg">
 					{' '}
 					Kunjungi Blog Kami Untuk informasi terkini seputar kegiatan mahasiswa
 				</p>
@@ -26,12 +26,12 @@ const Blog = () => {
 						{artikel.map((data) => (
 							<Link
 								href={`/artikel/${data.id}`}
-								className="lg:px-2">
+								className="lg:px-2"
+								key={data.id}>
 								<Card
 									date={data.tanggal}
 									imageUrl={data.gambar_headline.url}
-									tipe="Press Release"
-									key={data.id}
+									tipe="Artikel"
 									shortDesc={''}
 									title={data.title}
 								/>
@@ -42,7 +42,7 @@ const Blog = () => {
 						<Link
 							href="/artikel"
 							className="mt-6 hover:bg-[#EAEAEA] transition ease-in-out hover:translate-x-[0.5px] bg-white shadow-md lg:text-base text-[12px] text-black lg:py-2 py-1 px-4 rounded-lg flex items-center">
-							Saatnya Bersuara
+							Selengkapnya
 							<Image
 								src="/icon/buttonIconBlack.svg"
 								width={28}
