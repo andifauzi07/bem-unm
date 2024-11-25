@@ -22,6 +22,7 @@ function FilosofiLogo() {
 						src={image.url}
 						width={464}
 						height={363}
+						quality={100}
 						alt={`logo kabinet ${image.id}`}
 					/>
 				))}

@@ -38,7 +38,7 @@ const Footer = () => {
 					<p className="font-bold">Badan Eksekutif Mahasiswa</p>
 					<p className="italic"> Universitas Negeri Makassar</p>
 				</div>
-				<div className="text-center lg:text-left lg:block flex justify-center items-center flex-col">
+				<div className="text-center lg:text-left lg:block flex justify-center items-start px-4 lg:items-center flex-col">
 					<span className="flex gap-4 py-2">
 						<Image
 							src="/icon/HomeIcon.svg"
@@ -69,7 +69,7 @@ const Footer = () => {
 					<span className="flex gap-4 py-2">
 						<p>Dikelola Oleh Kementrian Media dan Propaganda Badan Eksekutif Mahasiswa Universitas Negeri Makassar</p>
 					</span>
-					<span className="flex justify-center lg:justify-start gap-4 py-4">
+					<span className="flex justify-center w-full lg:justify-start gap-4 py-4">
 						{socialLinks.map((social) => (
 							<a
 								href={social.url}

@@ -4,14 +4,14 @@ const PresidenBem = () => {
 	return (
 		<div className="bg-[#F2EFEF] text-black lg:px-16 flex lg:flex-row flex-col drop-shadow-md">
 			<div
-				className="lg:w-1/2 flex lg:block px-8 flex-col"
+				className="lg:w-1/2 w-full items-center flex lg:block px-8 flex-col"
 				data-aos="fade-right">
 				<Image
 					src="/PresidenBem.png"
-					width={800}
+					width={300}
 					height={0}
 					alt="Presiden Bem"
-					className="lg:w-[400px]"
+					className="lg:w-full"
 				/>
 				<div className="hidden lg:block bottom-[50px] right-[260px] relative lg:right-[400px] lg:bottom-[80px] text-right lg:text-right">
 					<h1 className="font-bold text-2xl lg:text-4xl">Hasrul</h1>
@@ -19,7 +19,7 @@ const PresidenBem = () => {
 				</div>
 			</div>
 			<div
-				className="lg:w-1/2 lg:px-8 px-6 pb-4 lg:pb-0"
+				className="lg:w-1/2 lg:px-8 lg:flex lg:flex-col lg:justify-center px-6 pb-4 lg:pb-0"
 				data-aos="fade-left">
 				<h1 className="lg:text-4xl text-2xl text-center lg:text-left lg:py-4 pb-2 font-bold drop-shadow-md">
 					Sambutan <br className="lg:hidden" /> Presiden <br className="lg:block hidden" /> <span className="text-[#E15701]"> BEM UNM</span>{' '}
