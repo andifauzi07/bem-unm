@@ -28,7 +28,7 @@ body {
 	.imageResponsif {
 		background-position: center;
 		background-size: cover;
-		background-image: linear-gradient(to top, #e15701cc, #ee9f6e74), url('/home-image.jpg');
+		background-image: linear-gradient(to top, rgba(225, 87, 1, 0.6) 30%, rgba(0, 0, 0, 0) 80%), url('/home-image.jpg');
 	}
 	.pendidikan {
 		background-size: contain;
@@ -60,7 +60,7 @@ body {
 }
 @media (min-width: 768px) {
 	.image {
-		background-image: linear-gradient(to top, #e15701cc, #ee9f6e74), url('/home-image.jpg');
+		background-image: linear-gradient(to top, rgba(225, 87, 1, 0.6) 30%, rgba(0, 0, 0, 0) 80%), url('/home-image.jpg');
 		background-position-y: 70px;
 	}
 
@@ -100,4 +100,8 @@ body {
 
 .edited-list {
 	list-style-type: disc;
+}
+
+.hover_button {
+	@apply before:absolute before:left-0 before:bottom-0 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition-transform before:duration-300 hover:before:scale-x-100;
 }

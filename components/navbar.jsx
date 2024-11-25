@@ -1,5 +1,3 @@
-//
-
 'use client';
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
@@ -93,8 +91,10 @@ const Navbar = () => {
 					{navLink.map((nav) => (
 						<li
 							key={nav.id}
-							className="mx-4 my-2 lg:my-0">
-							<Link href={nav.url}>{nav.title}</Link>
+							className="mx-4 my-2 lg:my-0 relative">
+							<Link href={nav.url}>
+								<span className="hover_button">{nav.title}</span>
+							</Link>
 						</li>
 					))}
 				</ul>
