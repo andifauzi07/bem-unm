@@ -32,6 +32,7 @@ export default async function Page({ params }) {
 						src={details?.gambar_headline.url}
 						width={800}
 						height={0}
+						quality={100}
 						alt={details?.gambar_headline.deskripsi}
 					/>
 					<p className="italic lg:text-sm lg:py-2">{details?.gambar_headline.deskripsi}</p>
@@ -43,9 +44,11 @@ export default async function Page({ params }) {
 						width={250}
 						height={250}
 						alt={details?.deskripsi_dua}
-						className="lg:float-left w-full py-2 lg:px-6"
+						quality={100}
+						className="lg:float-left lg:w-1/3 w-full py-2 lg:pr-6"
 					/>
 					<p className="text-justify lg:text-base indent-8 lg:indent-12 py-2">{details?.deskripsi_dua}</p>
+					{details?.deskripsi_tiga && <p className="text-justify lg:text-base indent-8 lg:indent-12 py-2">{details?.deskripsi_tiga}</p>}
 				</div>
 			</div>
 		</div>
