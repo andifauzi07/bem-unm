@@ -16,6 +16,11 @@ const socialLinks = [
 		url: 'https://www.youtube.com/@bemunm9584',
 		icon: '/icon/YouTube.svg',
 	},
+	{
+		id: '4',
+		url: 'https://www.tiktok.com/@bemunm_',
+		icon: '/icon/TiktokWhite.svg',
+	},
 ];
 
 const Footer = () => {
@@ -45,6 +50,7 @@ const Footer = () => {
 							width={20}
 							height={20}
 							alt="Home Icon"
+							className="w-auto h-auto"
 						/>
 						<p>Lt.2 Gedung PKM UNM Gunung Sari</p>
 					</span>
@@ -54,6 +60,7 @@ const Footer = () => {
 							width={20}
 							height={20}
 							alt="Home Icon"
+							className="w-auto h-auto"
 						/>
 						<p>+6281244445575</p>
 					</span>
@@ -63,13 +70,14 @@ const Footer = () => {
 							width={20}
 							height={20}
 							alt="Home Icon"
+							className="w-auto h-auto"
 						/>
 						<p>bemunm1@gmail.com</p>
 					</span>
 					<span className="flex gap-4 py-2">
 						<p>Dikelola Oleh Kementrian Media dan Propaganda Badan Eksekutif Mahasiswa Universitas Negeri Makassar</p>
 					</span>
-					<span className="flex justify-center w-full lg:justify-start gap-4 py-4">
+					<span className="flex justify-center items-center w-full lg:justify-start gap-4 py-4">
 						{socialLinks.map((social) => (
 							<a
 								href={social.url}
@@ -80,6 +88,7 @@ const Footer = () => {
 									width={24}
 									height={24}
 									alt={social.url}
+									className="w-auto h-auto"
 								/>
 							</a>
 						))}

@@ -34,6 +34,11 @@ const socialLinks = [
 		url: 'https://www.youtube.com/@bemunm9584',
 		icon: '/icon/YoutubeBlack.svg',
 	},
+	{
+		id: '4',
+		url: 'https://www.tiktok.com/@bemunm_',
+		icon: '/icon/TiktokBlack.svg',
+	},
 ];
 
 const KontakDetail = () => {

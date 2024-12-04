@@ -1,15 +1,20 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import TypingAnimation from '@/components/ui/typing-animation';
 
 const Jumbotron = () => {
 	return (
 		<div className="image imageResponsif w-full h-screen bg-no-repeat bg-cover mx-auto">
 			<div className="flex flex-col justify-center items-center h-screen">
-				<div
-					className="text-center lg:mt-20 text-white"
-					data-aos="fade-down">
-					<h1 className="lg:text-[70px] lg:pb-8 text-5xl font-bold text-shadow">Spirit Kolaborasi Multisektor</h1>
-					<h2 className="lg:text-5xl text-3xl text-shadow">
+				<div className="text-center lg:mt-20 text-white">
+					<TypingAnimation
+						text="Spirit Kolaborasi Multisektor"
+						className="lg:text-[70px] lg:pb-8 text-5xl font-bold text-shadow"
+						duration={90}
+					/>
+					<h2
+						data-aos="fade-down"
+						className="lg:text-5xl text-3xl text-shadow">
 						Kabinet Kolaboratif Periode <br /> 2024-2025
 					</h2>
 				</div>
