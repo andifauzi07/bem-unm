@@ -13,7 +13,7 @@ export default function Card({ imageUrl, tipe, title, shortDesc, date }) {
 			</div>
 			<div className="p-6">
 				<p className="text-sm font-bold text-gray-500">{tipe}</p>
-				<h3 className="text-xl font-bold text-gray-900 mt-2">{title}</h3>
+				<h3 className="lg:text-xl text-lg font-bold text-gray-900 mt-2 line-clamp-2 lg:line-clamp-3">{title}</h3>
 				<p className="mt-2 text-gray-600 text-sm leading-relaxed">{shortDesc}</p>
 				<div className="flex items-center justify-between mt-4">
 					<div className="flex items-center">

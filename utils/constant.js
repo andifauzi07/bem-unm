@@ -77,6 +77,51 @@ export const artikel = [
 		deskripsi_tiga:
 			'Acara ini tidak hanya berfokus pada teori, tetapi juga memberikan ruang diskusi interaktif, di mana peserta diajak untuk mengeksplorasi bagaimana opini dapat diubah menjadi fakta melalui riset berbasis data. Seminar ini menjadi bukti keseriusan BEM UNM periode 2024-2025 dalam menjaga kultur ilmiah di lingkungan kampus. Salah satu peserta, Syifa, mahasiswa Fakultas Ilmu Sosial UNM, menyatakan bahwa seminar ini memberinya wawasan baru. “Kami sering terlibat dalam gerakan mahasiswa, tetapi baru kali ini benar-benar memahami pentingnya riset dalam setiap aksi. Ini memberikan perspektif baru yang sangat bermanfaat,” ungkapnya.',
 	},
+	{
+		id: 'impian-kian-nihil',
+		title: 'IKN : IMPIAN KIAN NIHIL',
+		tanggal: '19 Oktober 2024',
+		gambar_headline: {
+			url: '/artikel/impian-kian-nihil/headline.png',
+			deskripsi: 'Bemunmarchive',
+		},
+		deskripsi_satu:
+			'Visi dan Konsep Pembangunan IKN Ibu Kota Nusantara (IKN) merupakan wujud perubahan peradaban Indonesia dengan menghadirkan konsep pembangunan Indonesiasentris. Melalui pembangunan IKN, Presiden RI Joko Widodo (Jokowi) mengatakan, pembangunan dan angka perekonomian daerah yang tinggi nantinya tidak lagi hanya terpusat di Pulau Jawa.Hal ini disampaikan Presiden dalam sambutannya pada kegiatan Ibu Kota Nusantara Sejarah Baru Peradaban Baru di The Ballroom Djakarta Theater, Jakarta, Selasa (18/10/2022).“Indonesia perlu keadilan ekonomi, sekali lagi ada 17 ribu pulau, bukan hanya satu pulau. Perlu kesetaraan pembangunan, perlu pemerataan pembangunan. Ini yang ingin kita hadirkan yaitu dengan membangun Ibu Kota Nusantara,” ucap Presiden.Presiden menuturkan, Nusantara dibangun dengan konsep kota pintar masa depan berbasis alam dengan 70 persen area di IKN merupakan area hijau. Lahan yang digunakan dalam pembangunan IKN saat ini, kata Presiden, merupakan hutan produksi monokultur dengan satu jenis pohon yaitu pohon eukaliptus yang ditebang setiap enam sampai tujuh tahun sekali.“Itu hutan produksi yang setiap enam tahun, tujuh tahun ditebang. Ini yang kita ingin kembalikan. Justru nantinya (kita) ingin jadi hutan heterogen dengan pohon asli dan endemik dari Kalimantan, sehingga kita harapkan nanti menjadi hutan hujan tropis lagi, tropical rain forest lagi di Kalimantan,” lanjutnya.Langkah pertama untuk mewujudkan hal tersebut yaitu pemerintah menyiapkan pusat persemaian yang telah dibangun pada bulan Juni lalu',
+		deskripsi_dua:
+			'Presiden berharap persemaian dengan luas lahan 15 hektare tersebut akan mampu menghijaukan kembali Kalimantan dengan penanaman berbagai jenis bibit tanaman.“Luas lahan persemaian ada kurang lebih 15 hektare dengan embung 7 hektare. Kita harapkan selesai nanti di awal tahun yang kapasitas bibitnya setiap tahun bisa menghasilkan kira-kira 15 juta bibit per tahun,” tambahnya.Pada kesempatan tersebut, Presiden juga menjelaskan bahwa sumber energi di IKN nantinya berasal dari energi terbarukan atau renewable energy. Termasuk dalam hal transportasi, Kepala Negara menyebut pemerintah akan mengembangkan teknologi kendaraan otonom berbasis listrik atau autonomous vehicle (AV).“Kemudian 80 persen transportasinya adalah transportasi umum, autonomous vehicle, tanpa awak dan tanpa supir. Jadi yang kita hargai di sana adalah pejalan kaki, yang kita hargai di sana adalah orang yang senang naik sepeda. Ten minutes city, jarak tempuh kemana-mana itu adalah ada dalam 10 menit,” kata Presiden.Lebih lanjut, Presiden mengatakan bahwa budaya kerja yang akan dibangun di IKN nantinya adalah budaya kerja produktif. Budaya tersebut, kata Presiden, dapat diwujudkan dengan didukung tata kelola dan manajemen yang baik, serta implementasi teknologi yang mumpuni.',
+		deskripsi_tiga:
+			'Dilain sisi Pembangunan Ibu Kota Nusantara (IKN) kini menghadapi berbagai tantangan dan ancaman serius yang tidak hanya mengancam keberhasilan proyek tersebut, tetapi juga kesejahteraan masyarakat dan stabilitas keuangan negara. Proyek ambisius ini, yang dicanangkan untuk menjadi simbol kemajuan dan pusat inovasi, kini memperlihatkan potensi risiko yang besar, termasuk ancaman mangkrak, dampak terhadap masyarakat adat, pembengkakan anggaran, dan konflik kepentingan yang mengancam masa depan bangsa.',
+	},
+	{
+		id: 'menggugat-ketidaksetaraan',
+		title: 'Menggugat Ketidaksetaraan: Gerakan Difabel untuk Transformasi Sosial dan Politik di Era Setengah Jajahan Setengah Feodal',
+		tanggal: '19 September 2024',
+		gambar_headline: {
+			url: '/artikel/menggugat-ketidaksetaraan/headline.png',
+			deskripsi: 'Kompasiana.com',
+		},
+		deskripsi_satu:
+			'“Tak ada jalan menuju keadilan dan kesetaraan ketika Negara masih berada pada tahap setengah jajahan dan setengah feodal.  Oleh karenya untuk mencapai tujuan tersebut yakni dengan cara membangun gerakan solidaritas kelas yang progresif”. Menggugat ketidaksetaraan adalah inti dari gerakan difabel progresif yang bertujuan untuk mentransformasi tatanan sosial dan politik dalam masyarakat setengah jajahan setengah feodal. Dalam sistem ini, kelompok marginal seperti penyandang difabel kerap berada di lapisan paling bawah dalam struktur sosial yang kaku dan eksploitatif. Mereka tidak hanya terpinggirkan secara ekonomi, tetapi juga terhalang akses terhadap pendidikan, pekerjaan, dan partisipasi politik. Persis para kaum pekerja, petani, dan kelompok marginal lainnya juga mengalami masalah serupa dalam bentuk eksploitasi tenaga kerja, upah rendah, dan kemiskinan yang berkelanjutan. Ketidaksetaraan struktural inilah memberi keuntungan bagi elite penguasa yang mempertahankan status quo, sementara penyandang difabel dan kelompok rentan lainnya terus mengalami diskriminasi dan eksklusi. Menentang ketidakadilan bukan hanya masalah advokasi sosial tetapi juga bagian dari perjuangan politik yang progresif. Kali ini penulis berupaya memberikan sedikit pandangan berlandaskan dari gerakan  progresif seperti Karl Marx, Antonio Gramsci, dan Paulo Freire',
+		deskripsi_dua:
+			'Struktur Feodal dan Hegemoni Budaya Dalam masyarakat setengah jajahan setengah feodal, struktur feodal dan hegemoni budaya mempengaruhi hampir seluruh aspek kehidupan, tidak terkecuali bagi penyandang difabel. Sistem ini mencerminkan kontrol dari sistem Imprealisme  atas kehidupan sosial dan ekonomi masyarakat, yang berakibat pada eksploitasi dan marginalisasi kelompok-kelompok tertentu. Penyandang difabel, misalnya, tidak hanya mengalami masalah ekonomi tetapi juga masalah sosial melalui pandangan hegemonik yang memperburuk stigma mereka. Antonio Gramsci, dalam Selections from the Prison Notebooks, menjelaskan bahwa hegemoni budaya memungkinkan kelompok dominan mengontrol pandangan dan nilai-nilai yang diterima dalam masyarakat. Hegemoni ini bukan sekadar kontrol melalui kekuasaan fisik atau ekonomi, melainkan dominasi atas cara berpikir masyarakat, yang membuat ketidakadilan terlihat sebagai sesuatu yang "wajar." Dalam konteks difabel, stigma yang menganggap penyandang difabel sebagai “berbeda” atau tidak produktif adalah hasil dari hegemoni ini. Hegemoni ini tidak hanya terwujud dalam kebijakan publik yang mengabaikan kebutuhan penyandang difabel, tetapi juga dalam persepsi masyarakat sehari-hari yang sering memandang mereka sebagai beban atau kelompok yang tidak mampu berkontribusi. Hal ini menunjukkan betapa kuatnya pengaruh hegemoni budaya dalam menghalangi kemajuan sosial bagi penyandang difabel dan kelompok marjinal lainnya.',
+		deskripsi_tiga:
+			'Dalam sistem setengah jajahan setengah feodal, penyandang difabel terperangkap dalam jaringan ketidakadilan yang kompleks. Mereka mengalami diskriminasi yang tidak hanya berbasis pada keterbatasan fisik atau mental tetapi juga pada struktur sosial yang lebih luas. Oleh karena itu, langkah gerakan yang tentunya harus dibangun adalah gerakan kolektif yang progresif untuk menempuh jalan perubahan melalui solidaritas kelas, sebab, Jika strategi ini menggabungkan kekuatan kolektif di antara semua kelompok tertindas dalam masyarakat, termasuk pekerja, petani, kaum miskin, dan kelompok marginal lainnya. Dengan memusatkan pada persatuan antar kelompok tertindas, maka gerakan ini akan berupaya mendobrak batasan sosial yang selama ini memisahkan mereka. Karl Marx,  mengungkapkan bahwa kelas-kelas tertindas memiliki kepentingan yang sama untuk melawan struktur yang menindas mereka. Penyandang difabel, walaupun memiliki karakteristik yang berbeda dari kelompok kelas pekerja, akan tetapi memiliki tujuan yang serupa dalam menghadapi penindasan dan eksploitasi dari sistem yang timpang. semua berada dalam posisi di mana hak-hak mereka dirampas atau bahkan tidak diakui sepenuhnya oleh negara dan elite penguasa. Solidaritas lintas kelompok ini menjadi penting untuk membangun kekuatan kolektif yang lebih besar, yang dapat menantang dan melawan dominasi sistem feodal dan kapitalis monopoli yang cenderung meminggirkan kepentingan mereka.',
+	},
+	{
+		id: 'menolak-lupa',
+		title: 'Menolak Lupa : Insiden 13 November Gunung Sari',
+		tanggal: '13 September 2024',
+		gambar_headline: {
+			url: '/artikel/menolak-lupa/headline.png',
+			deskripsi: 'Bemunmarchive',
+		},
+		deskripsi_satu:
+			'Sepuluh Tahun yang lalu, tepatnya pada 13 November 2014, sebuah peristiwa yang mengguncang sejarah gerakan mahasiswa di Indonesia terjadi di Universitas Negeri Makassar (UNM). Hari itu, mahasiswa yang tergabung dalam Badan Eksekutif Mahasiswa (BEM UNM) melakukan aksi damai di depan Gedung DPRD Makassar. Aksi ini digelar sebagai bentuk penolakan terhadap kebijakan pemerintah yang secara mendadak menaikkan harga bahan bakar minyak (BBM), kebijakan yang dinilai tidak pro-rakyat dan berpotensi memberatkan kehidupan masyarakat kecil. Mahasiswa turun ke jalan membawa semangat perjuangan, bukan hanya untuk diri mereka sendiri tetapi juga untuk menyuarakan aspirasi masyarakat yang mereka wakili. Namun, aksi damai yang awalnya berjalan tertib berubah menjadi tragedi setelah terjadi bentrokan dengan aparat kepolisian yang bertugas mengawal jalannya demonstrasi.',
+		deskripsi_dua:
+			'Dari Orasi Damai ke Kekerasan Bentrokan ini dipicu oleh insiden di mana seorang anggota kepolisian terkena anak panah. Meski hingga kini tidak ada bukti yang memastikan bahwa anak panah tersebut berasal dari mahasiswa, insiden ini cukup untuk memanaskan situasi. Aparat yang sudah tegang sejak awal mulai menunjukkan respons represif, yang kemudian memperburuk suasana. Bentrok yang semula terjadi di depan Gedung DPRD Makassar tidak berhenti di situ. Ketegangan meluas hingga ke dalam kampus UNM di kawasan Gunung Sari. Kampus yang seharusnya menjadi tempat belajar dan berpikir kritis berubah menjadi medan kekerasan. Brutalisme Aparat yang Melanggar Batas Aparat kepolisian tanpa izin memasuki area kampus, melakukan penggeledahan, dan bahkan merusak fasilitas kampus. Kaca jendela ruang kelas dihancurkan, kendaraan milik dosen dan mahasiswa dirusak, dan ruang-ruang perkuliahan yang seharusnya menjadi tempat diskusi intelektual justru menjadi saksi bisu kekerasan yang terjadi. Lebih dari itu, sebanyak 46 mahasiswa ditangkap dan dibawa ke Polrestabes Makassar tanpa penjelasan yang jelas. Sebagian dari mereka menjadi korban pemukulan dan intimidasi selama proses penangkapan. Tindakan aparat ini tidak hanya melanggar kebebasan akademik tetapi juga hak asasi manusia. Mahasiswa yang menyuarakan pendapatnya sebagai bagian dari proses demokrasi justru diperlakukan seperti penjahat. Brutalisme ini tidak hanya merusak secara fisik tetapi juga meninggalkan trauma mendalam bagi mahasiswa UNM. Tindakan represif yang dilakukan aparat menjadi bukti nyata bahwa hak untuk berbicara dan menyampaikan pendapat di negeri ini masih sering kali dipertaruhkan.',
+		deskripsi_tiga:
+			'Simbol Perjuangan Mahasiswa Kampus Orange Namun, kekerasan yang dialami mahasiswa UNM pada 13 November 2014 bukan akhir dari perjuangan. Peristiwa ini justru memupuk semangat perlawanan yang lebih besar. Mahasiswa Kampus Orange membuktikan bahwa mereka tidak akan pernah tunduk pada kekerasan dan ketidakadilan. Mereka menjadi simbol perlawanan terhadap upaya pembungkaman dan penjaga kebebasan akademik. "Insting Insiden Tiga Belas November Gunung Sari" bukan sekadar istilah yang lahir dari tragedi ini. Istilah tersebut merepresentasikan semangat perlawanan, solidaritas, dan keberanian mahasiswa UNM untuk menentang segala bentuk ketidakadilan. Peristiwa ini menjadi pengingat bahwa kebebasan berbicara, berpikir, dan mengkritik adalah hak yang tidak boleh direnggut oleh siapa pun.',
+	},
 ];
 
 export const proker = [
@@ -104,5 +149,74 @@ export const proker = [
 		id: '5',
 		kementrian: 'Perekonomian',
 		program: ['Festival UMKM', 'Economic Talks'],
+	},
+];
+
+export const dropdownKementrian = [
+	{
+		title: 'Pendidikan & Kebudayaan',
+		link: '/pendidikan-dan-kebudayaan',
+	},
+	{
+		title: 'Riset & Pengembangan Organisasi',
+		link: '/riset-dan-pengembangan-organisasi',
+	},
+	{
+		title: 'Sosial & Politik',
+		link: '/sosial-dan-politik',
+	},
+	{
+		title: 'Media & Propaganda',
+		link: '/media-dan-propaganda',
+	},
+	{
+		title: 'Perekonomian',
+		link: '/perekonomian',
+	},
+];
+
+export const dropdownTentangKami = [
+	{
+		title: 'Deskripsi Singkat',
+		link: '/tentang-kami',
+	},
+	{
+		title: 'Bank Data',
+		link: '/tentang-kami/bank-data',
+	},
+	{
+		title: 'Struktur Kabinet',
+		link: '/tentang-kami/struktur-kabinet',
+	},
+];
+
+export const listFileData = [
+	{
+		nav: '/tentang-kami/bank-data',
+		title: 'Laporan Pertanggung Jawaban Presiden Bem UNM',
+	},
+	{
+		nav: '/tentang-kami/bank-data',
+		title: 'Laporan Pertanggung Jawaban Sekretaris Kabinet',
+	},
+	{
+		nav: '/tentang-kami/bank-data',
+		title: 'Laporan Pertanggung Jawaban Kementerian Pendidikan & Kebudayaan',
+	},
+	{
+		nav: '/tentang-kami/bank-data',
+		title: 'Laporan Pertanggung Jawaban Kementerian Riset & Pengembangan Organisasi',
+	},
+	{
+		nav: '/tentang-kami/bank-data',
+		title: 'Laporan Pertanggung Jawaban Kementerian Sosial & Politik',
+	},
+	{
+		nav: '/tentang-kami/bank-data',
+		title: 'Laporan Pertanggung Jawaban Kementerian Media & Propaganda',
+	},
+	{
+		nav: '/tentang-kami/bank-data',
+		title: 'Laporan Pertanggung Jawaban Kementerian Perekonomian',
 	},
 ];

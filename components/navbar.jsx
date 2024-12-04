@@ -5,24 +5,7 @@ import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import Dropdown from './dropdown';
-
-const navLink = [
-	{
-		id: '2',
-		title: 'Artikel',
-		url: '/artikel',
-	},
-	{
-		id: '3',
-		title: 'Tentang Kami',
-		url: '/tentang-kami',
-	},
-	{
-		id: '4',
-		title: 'Kontak',
-		url: '/kontak',
-	},
-];
+import { dropdownKementrian, dropdownTentangKami } from '@/utils/constant';
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -88,17 +71,27 @@ const Navbar = () => {
 				className={`lg:flex items-center ${menuOpen ? 'block' : 'hidden'} w-full lg:w-auto`}>
 				<ul className="flex flex-col lg:flex-row justify-center items-center bg-[#fefefe] lg:bg-transparent">
 					<li>
-						<Dropdown />
+						<Dropdown
+							title="Kementerian"
+							dropdownData={dropdownKementrian}
+						/>
 					</li>
-					{navLink.map((nav) => (
-						<li
-							key={nav.id}
-							className="mx-4 my-2 lg:my-0 relative">
-							<Link href={nav.url}>
-								<span className="hover_button">{nav.title}</span>
-							</Link>
-						</li>
-					))}
+					<li className="mx-4 my-2 lg:my-0 relative">
+						<Link href="/artikel">
+							<span className="hover_button">Artikel</span>
+						</Link>
+					</li>
+					<li>
+						<Dropdown
+							title="Tentang Kami"
+							dropdownData={dropdownTentangKami}
+						/>
+					</li>
+					<li className="mx-4 my-2 lg:my-0 relative">
+						<Link href="/kontak">
+							<span className="hover_button">Kontak</span>
+						</Link>
+					</li>
 				</ul>
 			</div>
 		</nav>

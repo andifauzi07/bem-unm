@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
-export default function Dropdown() {
+export default function Dropdown({ title, dropdownData }) {
 	const [isOpen, setIsOpen] = useState(false);
 	const dropdownRef = useRef(null);
 	const path = usePathname();
@@ -44,7 +44,7 @@ export default function Dropdown() {
 				onClick={toggleDropdown}
 				className="inline-flex items-center w-full justify-center border-gray-300 bg-white px-4 py-2 text-black">
 				<span className="relative">
-					<span className="hover_button">Kementerian</span>
+					<span className="hover_button">{title}</span>
 				</span>
 				<svg
 					className="-mr-1 ml-2 h-5 w-5"
@@ -69,41 +69,16 @@ export default function Dropdown() {
 					<div
 						className="py-1"
 						role="none">
-						<Link
-							href="/pendidikan-dan-kebudayaan"
-							className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
-							role="menuitem"
-							onClick={closeDropdown}>
-							Pendidikan & Kebudayaan
-						</Link>
-						<Link
-							href="/riset-dan-pengembangan-organisasi"
-							className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
-							role="menuitem"
-							onClick={closeDropdown}>
-							Riset & Pengembangan Organisasi
-						</Link>
-						<Link
-							href="/sosial-dan-politik"
-							className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
-							role="menuitem"
-							onClick={closeDropdown}>
-							Sosial & Politik
-						</Link>
-						<Link
-							href="/media-dan-propaganda"
-							className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
-							role="menuitem"
-							onClick={closeDropdown}>
-							Media & Propaganda
-						</Link>
-						<Link
-							href="/perekonomian"
-							className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
-							role="menuitem"
-							onClick={closeDropdown}>
-							Perekonomian
-						</Link>
+						{dropdownData.map((data) => (
+							<Link
+								href={data?.link}
+								key={data.title}
+								className="block px-4 py-2 text-sm text-black hover:bg-[#eaeaea]"
+								role="menuitem"
+								onClick={closeDropdown}>
+								{data?.title}
+							</Link>
+						))}
 					</div>
 				</div>
 			)}

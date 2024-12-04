@@ -7,20 +7,23 @@ const Artikel = () => {
 	return (
 		<div className="py-24">
 			<Header />
-			<div className="w-full mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-4 p-8 my-16">
-				{artikel.map((data) => (
-					<Link
-						href={`/artikel/${data.id}`}
-						key={data.id}>
-						<Card
-							date={data.tanggal}
-							imageUrl={data.gambar_headline.url}
-							tipe="Artikel"
-							shortDesc={''}
-							title={data.title}
-						/>
-					</Link>
-				))}
+			<div className="flex justify-center py-16 lg:px-8 gap-4">
+				<div className="grid px-8 lg:grid-cols-3 sm:grid-cols-2 lg:flex-row justify-center items-center gap-8 lg:py-8 py-4">
+					{artikel.map((data) => (
+						<Link
+							href={`/artikel/${data.id}`}
+							className="lg:px-2"
+							key={data.id}>
+							<Card
+								date={data.tanggal}
+								imageUrl={data.gambar_headline.url}
+								tipe="Artikel"
+								shortDesc={''}
+								title={data.title}
+							/>
+						</Link>
+					))}
+				</div>
 			</div>
 		</div>
 	);

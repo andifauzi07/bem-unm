@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Blog = () => {
+	const shortArtikel = artikel.slice(0, 3);
 	return (
 		<div className="bg-[#e4e4e4]">
 			<div className="w-full text-center lg:text-center px-4">
@@ -23,7 +24,7 @@ const Blog = () => {
 			<div className="flex justify-center py-16 lg:px-8 gap-4">
 				<div className="w-full bg-[#E4E3E3] rounded-3xl flex flex-col justify-center lg:block">
 					<div className="grid px-8 lg:grid-cols-3 sm:grid-cols-2 lg:flex-row justify-center items-center gap-8 lg:py-8 py-4">
-						{artikel.map((data) => (
+						{shortArtikel.map((data) => (
 							<Link
 								href={`/artikel/${data.id}`}
 								className="lg:px-2"
