@@ -39,8 +39,8 @@ const Footer = () => {
 					<p className="text-sm italic"> Universitas Negeri Makassar</p>
 				</div>
 			</div>
-			<div className="flex flex-col lg:justify-start justify-center gap-[34px] px-4 lg:px-0 lg:w-2/6">
-				<div className="lg:block hidden px-4">
+			<div className="flex flex-col justify-center gap-[14px] px-4 lg:px-0 lg:w-2/6">
+				<div className="lg:block hidden px-4 my-2">
 					<p className="font-bold">Badan Eksekutif Mahasiswa</p>
 					<p className="italic"> Universitas Negeri Makassar</p>
 				</div>
