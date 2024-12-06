@@ -75,7 +75,7 @@ const Footer = () => {
 						<p>bemunm1@gmail.com</p>
 					</span>
 					<span className="flex gap-4 py-2">
-						<p>Dikelola Oleh Kementrian Media dan Propaganda Badan Eksekutif Mahasiswa Universitas Negeri Makassar</p>
+						<p>Dikelola Oleh Kementerian Media dan Propaganda Badan Eksekutif Mahasiswa Universitas Negeri Makassar</p>
 					</span>
 					<span className="flex justify-center items-center w-full lg:justify-start gap-4 py-4">
 						{socialLinks.map((social) => (

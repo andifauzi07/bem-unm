@@ -192,31 +192,7 @@ export const dropdownTentangKami = [
 
 export const listFileData = [
 	{
-		nav: '/tentang-kami/bank-data',
-		title: 'Laporan Pertanggung Jawaban Presiden Bem UNM',
-	},
-	{
-		nav: '/tentang-kami/bank-data',
-		title: 'Laporan Pertanggung Jawaban Sekretaris Kabinet',
-	},
-	{
-		nav: '/tentang-kami/bank-data',
-		title: 'Laporan Pertanggung Jawaban Kementerian Pendidikan & Kebudayaan',
-	},
-	{
-		nav: '/tentang-kami/bank-data',
-		title: 'Laporan Pertanggung Jawaban Kementerian Riset & Pengembangan Organisasi',
-	},
-	{
-		nav: '/tentang-kami/bank-data',
-		title: 'Laporan Pertanggung Jawaban Kementerian Sosial & Politik',
-	},
-	{
-		nav: '/tentang-kami/bank-data',
-		title: 'Laporan Pertanggung Jawaban Kementerian Media & Propaganda',
-	},
-	{
-		nav: '/tentang-kami/bank-data',
-		title: 'Laporan Pertanggung Jawaban Kementerian Perekonomian',
+		nav: 'https://drive.google.com/file/d/18cx8YvZaPLnPFcmIWoqZwvQVBeN2L-9G/view?usp=drivesdk',
+		title: 'Bem UNM Periode 2024-2025',
 	},
 ];

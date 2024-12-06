@@ -3,12 +3,12 @@ import { FileSliders } from 'lucide-react';
 
 const DataList = ({ nav, title }) => {
 	return (
-		<div className="flex items-center gap-2">
+		<div className="flex items-center relative gap-2">
 			<FileSliders size={17} />
 			<Link
 				href={nav}
 				target="_blank"
-				className="flex flex-1 items-center justify-between py-2 font-medium transition-all hover:underline">
+				className="py-1 hover_button">
 				{title}
 			</Link>
 		</div>
