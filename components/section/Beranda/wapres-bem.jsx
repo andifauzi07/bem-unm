@@ -7,7 +7,7 @@ const WapresBem = () => {
 			<div
 				className="lg:w-3/5 px-4"
 				data-aos="fade-right">
-				<h1 className="lg:text-[70px] text-center text-[24px] font-bold">
+				<h1 className="lg:text-5xl text-center text-3xl font-bold">
 					Kabinet <span className="text-[#E15701]">Kolaboratif</span>
 				</h1>
 				<p className="text-[#8A8888] lg:text-2xl text-center lg:text-left mb-8">Spirit Kolaborasi Multisektor</p>
@@ -35,7 +35,7 @@ const WapresBem = () => {
 						</div>
 						<Link
 							href="/kontak"
-							className="bg-gradient-to-r from-[#FFCC00] to-[#F45D00] text-white py-2 px-4 lg:text-base text-[12px] rounded-xl flex gap-1 items-center">
+							className="bg-gradient-to-r from-[#FFCC00] to-[#F45D00] text-white py-2 px-2 lg:text-base text-[12px] rounded-xl flex gap-1 items-center">
 							Saatnya Bersuara
 							<Image
 								src="/icon/buttonIcon.svg"

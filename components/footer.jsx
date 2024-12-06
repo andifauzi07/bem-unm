@@ -26,20 +26,21 @@ const socialLinks = [
 const Footer = () => {
 	return (
 		<div className="w-full gap-4 lg:px-8 py-4 flex lg:flex-row flex-col justify-center bg-[#181818] text-white">
-			<div className="lg:w-1/6 flex lg:items-start items-center justify-center lg:justify-end">
+			<div className="lg:w-1/6 gap-2 flex lg:items-start items-center justify-center lg:justify-end">
 				<Image
 					src="/FooterLogo.svg"
-					width={86}
-					height={92}
+					width={66}
+					height={72}
 					alt="Logo Footer"
+					className="lg:h-16 lg:w-16 w-12 h-12"
 				/>
 				<div className="lg:hidden block">
-					<p className="font-bold">Badan Eksekutif Mahasiswa</p>
-					<p className="italic"> Universitas Negeri Makassar</p>
+					<p className="text-sm font-bold">Badan Eksekutif Mahasiswa</p>
+					<p className="text-sm italic"> Universitas Negeri Makassar</p>
 				</div>
 			</div>
 			<div className="flex flex-col lg:justify-start justify-center gap-[34px] px-4 lg:px-0 lg:w-2/6">
-				<div className="lg:block hidden">
+				<div className="lg:block hidden px-4">
 					<p className="font-bold">Badan Eksekutif Mahasiswa</p>
 					<p className="italic"> Universitas Negeri Makassar</p>
 				</div>
@@ -52,7 +53,7 @@ const Footer = () => {
 							alt="Home Icon"
 							className="w-auto h-auto"
 						/>
-						<p>Lt.2 Gedung PKM UNM Gunung Sari</p>
+						<p className="text-sm">Lt.2 Gedung PKM UNM Gunung Sari</p>
 					</span>
 					<span className="flex gap-4 py-2">
 						<Image
@@ -62,7 +63,7 @@ const Footer = () => {
 							alt="Home Icon"
 							className="w-auto h-auto"
 						/>
-						<p>+6281244445575</p>
+						<p className="text-sm">+6281244445575</p>
 					</span>
 					<span className="flex gap-4 py-2">
 						<Image
@@ -72,10 +73,10 @@ const Footer = () => {
 							alt="Home Icon"
 							className="w-auto h-auto"
 						/>
-						<p>bemunm1@gmail.com</p>
+						<p className="text-sm">bemunm1@gmail.com</p>
 					</span>
 					<span className="flex gap-4 py-2">
-						<p>Dikelola Oleh Kementerian Media dan Propaganda Badan Eksekutif Mahasiswa Universitas Negeri Makassar</p>
+						<p className="text-sm">Dikelola Oleh Kementerian Media dan Propaganda Badan Eksekutif Mahasiswa Universitas Negeri Makassar</p>
 					</span>
 					<span className="flex justify-center items-center w-full lg:justify-start gap-4 py-4">
 						{socialLinks.map((social) => (
@@ -96,7 +97,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="flex lg:justify-end justify-center items-end lg:w-4/6">
-				<p>BEM UNM© 2024 All Rights Reserved</p>
+				<p className="lg:text-sm text-xs">BEM UNM© 2024 All Rights Reserved</p>
 			</div>
 		</div>
 	);
