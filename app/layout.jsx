@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import WrapperAnmimation from '@/components/animation/WrapperAnimation';
+import { Toaster } from '@/components/ui/toaster';
 import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = localFont({
@@ -17,8 +18,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-	title: 'BEM UNM',
-	description: 'Official website Badan Eksekutif Mahasiswa Universitas Negeri Makassar',
+	title: 'BEM UNM | Kabinet Kolaboratif',
+	description: 'Offiical Website Kabinet Kolaboratif Badan Eksekutif Mahasiswa Universitas Negeri Makassar. Dikelola oleh Kementrian Media dan Propaganda BEM UNM Periode 2024-2025',
 };
 
 export default function RootLayout({ children }) {
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
 					<div className="w-full overflow-hidden">
 						<Navbar />
 						{children}
+						<Toaster />
 						<Footer />
 					</div>
 				</WrapperAnmimation>
