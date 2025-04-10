@@ -181,8 +181,8 @@ export const dropdownTentangKami = [
 		link: '/tentang-kami',
 	},
 	{
-		title: 'Bank Data',
-		link: '/tentang-kami/bank-data',
+		title: 'Audit',
+		link: '/tentang-kami/audit',
 	},
 	{
 		title: 'Struktur Kabinet',
