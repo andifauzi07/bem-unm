@@ -193,6 +193,6 @@ export const dropdownTentangKami = [
 export const listFileData = [
 	{
 		nav: 'https://drive.google.com/file/d/18cx8YvZaPLnPFcmIWoqZwvQVBeN2L-9G/view?usp=drivesdk',
-		title: 'Bem UNM Periode 2024-2025',
+		title: 'Laporan Pertanggungjawaban Tengah Periode',
 	},
 ];
