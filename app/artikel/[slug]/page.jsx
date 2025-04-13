@@ -37,7 +37,7 @@ export default async function Page({ params }) {
 					/>
 					<p className="italic lg:text-sm lg:py-2">{details?.gambar_headline.deskripsi}</p>
 				</div>
-				<p className="text-justify lg:text-base leading-10 indent-8 lg:indent-12 py-2">{details?.deskripsi_satu}</p>
+				<p className="text-justify lg:text-base leading-10 whitespace-pre-line py-2">{details?.deskripsi_satu}</p>
 				<div className="py-2">
 					{details?.gambar_dua && (
 						<Image
@@ -49,8 +49,8 @@ export default async function Page({ params }) {
 							className="lg:float-left lg:w-1/3 w-full py-2 lg:pr-6"
 						/>
 					)}
-					<p className="text-justify lg:text-base indent-8 leading-10 lg:indent-12 py-2">{details?.deskripsi_dua}</p>
-					{details?.deskripsi_tiga && <p className="text-justify leading-10 lg:text-base indent-8 lg:indent-12 py-2">{details?.deskripsi_tiga}</p>}
+					<p className="text-justify lg:text-base leading-10 whitespace-pre-line py-2">{details?.deskripsi_dua}</p>
+					{details?.deskripsi_tiga && <p className="text-justify leading-10 lg:text-base whitespace-pre-line py-2">{details?.deskripsi_tiga}</p>}
 				</div>
 			</div>
 		</div>

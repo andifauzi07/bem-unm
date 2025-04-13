@@ -23,6 +23,51 @@ export const fungsiBem = [
 
 export const artikel = [
 	{
+		id: 'official-website',
+		title: 'Telah Hadir Official Website BEM UNM',
+		tanggal: '25 Maret 2025',
+		gambar_headline: {
+			url: '/artikel/official-website/official-website.png',
+			deskripsi: 'Bemunmarchive',
+		},
+		deskripsi_satu:
+			'Dengan semangat Kabinet Kolaboratif yang menjunjung tinggi kerja sama lintas sektor, kami dengan bangga mengumumkan bahwa website resmi BEM Universitas Negeri Makassar periode 2024-2025 kini telah aktif dan dapat diakses oleh seluruh mahasiswa dan masyarakat umum! \nLangkah ini merupakan bagian dari komitmen kami dalam memodernisasi sistem komunikasi dan memperkuat transparansi informasi. Website ini kami hadirkan sebagai jembatan penghubung antara BEM UNM, mahasiswa, serta masyarakat luas—dengan harapan dapat menciptakan ruang yang lebih terbuka, responsif, dan partisipatif.',
+		deskripsi_dua:
+			'Di dalam website ini, Anda akan menemukan berbagai fitur yang dikembangkan untuk mendukung keterlibatan aktif dari seluruh elemen kampus. Mulai dari pembaruan berita seputar kinerja dan program kerja BEM, agenda kegiatan mendatang, ruang interaksi tanya jawab, hingga dokumentasi kegiatan yang bisa diakses secara langsung.\n\n ',
+		deskripsi_tiga:
+			'Pembangunan website ini merupakan hasil kerja kolektif dari berbagai pihak yang percaya pada pentingnya kolaborasi demi kemajuan bersama. Kami sangat mengapresiasi setiap bentuk kontribusi yang telah diberikan untuk mewujudkan platform ini. \n\nKami berharap website ini tidak hanya menjadi pusat informasi, tetapi juga menjadi alat penggerak keterlibatan mahasiswa dalam berbagai isu dan gerakan. Ini adalah langkah awal menuju ekosistem digital yang inklusif dan dinamis di tubuh BEM UNM.\n Selamat menjelajahi website kami! Jangan ragu untuk memberikan kritik, saran, maupun masukan yang membangun. Kami percaya, melalui semangat kolaboratif ini, kita bisa membawa perubahan yang nyata.',
+	},
+	{
+		id: 'indonesia-gelap',
+		title: 'Indonesia Gelap',
+		tanggal: '21 Maret 2025',
+		gambar_headline: {
+			url: '/artikel/indonesia-gelap/indonesia-gelap.png',
+			deskripsi: 'Bemunmarchive',
+		},
+		deskripsi_satu:
+			'Makassar — Indonesia Gelap: Aksi Perlawanan BEM UNM atas Kebijakan yang Mengkhianati Rakyat. \n\n Kami, mahasiswa Universitas Negeri Makassar yang tergabung dalam Badan Eksekutif Mahasiswa (BEM UNM), turun ke jalan dalam aksi yang kami beri nama Indonesia Gelap. Aksi ini bukan sekadar simbol, melainkan gambaran nyata dari kondisi bangsa hari ini bangsa yang pelan-pelan dijauhkan dari cita-cita keadilan sosial, bangsa yang perlahan diseret ke dalam jurang ketimpangan oleh segelintir elit yang hanya melayani kepentingan segelintir kelompok.\n\n Kami berdiri di barisan terdepan untuk menyuarakan keresahan, melawan kebijakan yang tidak adil, dan menunjukkan bahwa mahasiswa tidak akan pernah diam di tengah ketidakberpihakan negara terhadap rakyat. Rezim Prabowo-Gibran, sejak awal kemunculannya, telah memperlihatkan watak kekuasaan yang otoriter, populis semu, dan jauh dari semangat demokrasi sejati. Salah satu kebijakan yang menjadi titik kritik kami adalah program efisiensi anggaran yang justru menyasar sektor paling fundamental: pendidikan dan kesehatan. Negara yang ingin maju tidak akan pernah memangkas akses pendidikan dan layanan kesehatan hanya demi membiayai program pencitraan yang dibalut dengan jargon populis. Kami menyoroti Makan Bergizi Gratis (MBG) sebuah program yang diklaim untuk mengatasi stunting namun menargetkan anak usia SMP dan SMA. Ini adalah kekeliruan fatal. Stunting terjadi di fase awal kehidupan, bukan saat remaja. Program ini bukan solusi, melainkan tipu daya visual, sebuah upaya menutupi kegagalan sistemik negara dalam menyelesaikan akar persoalan ketimpangan gizi dan kesehatan masyarakat.',
+		deskripsi_dua:
+			'Gerakan kami hari ini adalah pesan yang jelas: bahwa ketika negara membungkam suara rakyat, kami akan bersuara lebih lantang. Ketika negara menutup ruang demokrasi, kami akan merobek tembok kekuasaan dengan semangat kolektif. Aksi ini bukan akhir, melainkan awal dari gelombang panjang perjuangan. Kami tidak sedang bermain-main. Ini adalah gerakan moral dan politik yang lahir dari kepedihan rakyat kecil yang tak pernah didengar.',
+		deskripsi_tiga:
+			'Kami menyerukan kepada seluruh mahasiswa, pemuda, dan rakyat Indonesia: bangkit dan lawan! Jangan biarkan negeri ini terus dikuasai oleh kepentingan elit yang menggadaikan masa depan rakyat demi kelangsungan kekuasaan mereka. Turunlah ke jalan, rebut kembali ruang demokrasi yang telah direbut oleh politik oligarki. \n\n Indonesia memang sedang gelap. Tapi dari kegelapan inilah bara perlawanan akan menyala.',
+	},
+	{
+		id: 'seminar-nasional-umkm',
+		title: 'Seminar Nasional UMKM : Peran UMKM dalam Menjaga Stabilitas Perekonomian Nasional',
+		tanggal: '20 Maret 2025',
+		gambar_headline: {
+			url: '/artikel/seminar-umkm/seminar-umkm.png',
+			deskripsi: 'Bemunmarchive',
+		},
+		deskripsi_satu:
+			'UMKM bukan hanya sektor ekonomi, melainkan tulang punggung yang menopang ketahanan bangsa. Dalam berbagai fase sejarah perekonomian Indonesia—baik di masa krisis moneter maupun saat pandemi global—UMKM terbukti menjadi sektor yang paling adaptif, resilien, dan inklusif. Menyadari urgensi tersebut, sebuah forum strategis bertajuk “Peran UMKM dalam Menjaga Stabilitas Perekonomian Nasional” diselenggarakan pada Kamis, 20 Maret 2025, di Ballroom D, Lantai 1, Menara Phinisi, Gunung Sari.',
+		deskripsi_dua:
+			'Kegiatan ini dihadiri oleh 165 peserta, yang terdiri dari mahasiswa, pelaku UMKM, akademisi, dan pemangku kepentingan lainnya. Forum ini menjadi ruang diskusi terbuka untuk memperkuat kesadaran bersama akan pentingnya ekosistem UMKM yang sehat dan berdaya saing.Dalam suasana Ramadan yang penuh semangat kolaborasi dan refleksi, acara ini menghadirkan tiga narasumber yang memiliki kompetensi dan rekam jejak luar biasa dalam bidang ekonomi kerakyatan dan kebijakan publik, yaitu:',
+		deskripsi_tiga:
+			'🔹 Andi Azizah Irma Wahyudi Yati, S.AP., M.Si. \n Praktisi pemerintahan yang memahami dinamika regulasi dan pemberdayaan UMKM dari perspektif kebijakan daerah.\n🔹 Prof. Dr. H. Anwar Ramli, S.E., M.Si. \n Akademisi senior yang telah lama berkecimpung dalam kajian ekonomi pembangunan dan pemberdayaan sektor informal. \n 🔹 Syamsul Rijal Madani, S.E. \n Praktisi dan penggiat UMKM yang aktif mendorong gerakan ekonomi berbasis komunitas dan digitalisasi usaha mikro. \n\n Diskusi yang berlangsung menggarisbawahi bahwa penguatan UMKM bukan hanya soal permodalan dan pelatihan, melainkan tentang membangun ekosistem ekonomi yang terhubung—mulai dari akses pasar, inovasi teknologi, hingga keterlibatan generasi muda dalam menciptakan wirausaha baru.\n Para narasumber juga menekankan bahwa keberpihakan terhadap UMKM harus hadir dalam bentuk konkret: regulasi yang berpihak, kolaborasi lintas sektor, hingga pendampingan berkelanjutan. Terlebih di tengah potensi disrupsi digital dan ketidakpastian ekonomi global, UMKM perlu diberi ruang untuk berkembang secara mandiri dan berkelanjutan. \n \n Acara ini diakhiri dengan sesi tanya jawab yang sangat interaktif, di mana peserta diberikan kesempatan untuk bertanya langsung kepada narasumber. Diskusi ini tidak hanya memperkaya wawasan peserta tetapi juga membuka peluang kolaborasi antara mahasiswa, pelaku UMKM, dan akademisi dalam menciptakan solusi nyata bagi tantangan yang dihadapi sektor UMKM.',
+	},
+	{
 		id: 'studi-banding-bem-unm',
 		title: 'Studi Banding BEM UNM ke Samarinda: Memperkuat Jejaring dan Wawasan Nasional',
 		tanggal: '11 November 2024',
