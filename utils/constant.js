@@ -240,6 +240,10 @@ export const listFileData = [
 		nav: 'https://drive.google.com/file/d/18cx8YvZaPLnPFcmIWoqZwvQVBeN2L-9G/view?usp=drivesdk',
 		title: 'Laporan Pertanggungjawaban Tengah Periode',
 	},
+	{
+		nav: 'https://drive.google.com/drive/folders/1A-bN23YOYrwSyhXIYnzDX_IWkKHxUt5s',
+		title: 'Laporan Pertanggungjawaban Akhir Periode',
+	},
 ];
 
 export const listFileKemenrisbang = [
