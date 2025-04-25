@@ -27,7 +27,7 @@ body {
 	.imageResponsif {
 		background-position: center;
 		background-size: cover;
-		background-image: linear-gradient(to top, rgba(225, 87, 1, 0.6) 30%, rgba(0, 0, 0, 0) 80%), url('/home-image.jpg');
+		background-image: linear-gradient(to top, rgba(225, 87, 1, 0.6) 30%, rgba(0, 0, 0, 0) 80%), url('/home-image-mobile.JPG');
 	}
 	.pendidikan {
 		background-size: contain;
