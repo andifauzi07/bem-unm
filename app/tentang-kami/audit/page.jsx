@@ -1,5 +1,5 @@
 import DataList from './DataList';
-import { listFileData } from '@/utils/constant';
+import { listFileData, listFileKemenrisbang } from '@/utils/constant';
 
 export default function BankData() {
 	return (
@@ -8,7 +8,20 @@ export default function BankData() {
 				{/* <span className="text-[#E15701]">Laporan</span>  */}
 				Audit
 			</h1>
-			<p className="text-[#8A8888] lg:text-2xl pb-6 lg:pb-8">Laporan Pertanggungjawaban Kepengurusan</p>
+			<p className="text-[#8A8888] lg:text-2xl pb-6 lg:pb-8">Bank Data Kemenrisbang</p>
+			<div className="w-full flex justify-center">
+				<ul>
+					{listFileKemenrisbang.map((data) => (
+						<li key={data.title}>
+							<DataList
+								nav={data.nav}
+								title={data.title}
+							/>
+						</li>
+					))}
+				</ul>
+			</div>
+			<p className="text-[#8A8888] lg:text-2xl py-6 lg:pb-8">Laporan Pertanggungjawaban Kepengurusan</p>
 			<div className="w-full flex justify-center">
 				<ul>
 					{listFileData.map((data) => (

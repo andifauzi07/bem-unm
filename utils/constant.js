@@ -241,3 +241,10 @@ export const listFileData = [
 		title: 'Laporan Pertanggungjawaban Tengah Periode',
 	},
 ];
+
+export const listFileKemenrisbang = [
+	{
+		nav: 'https://drive.google.com/drive/folders/1NTlOeJ2K6qETmjxS8MPPwZdkhraV4kjl',
+		title: 'Bank Data Kemenrisbang',
+	},
+];
