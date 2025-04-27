@@ -7,7 +7,7 @@ const WapresBem = () => {
 			<div
 				className="lg:w-3/5 px-4"
 				data-aos="fade-right">
-				<h1 className="lg:text-5xl text-center text-3xl font-bold">
+				<h1 className="lg:text-5xl text-center lg:text-left text-3xl font-bold">
 					Kabinet <span className="text-[#E15701]">Kolaboratif</span>
 				</h1>
 				<p className="text-[#8A8888] lg:text-2xl text-center lg:text-left mb-8">Spirit Kolaborasi Multisektor</p>

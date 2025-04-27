@@ -57,7 +57,7 @@ export const artikel = [
 		title: 'Seminar Nasional UMKM : Peran UMKM dalam Menjaga Stabilitas Perekonomian Nasional',
 		tanggal: '20 Maret 2025',
 		gambar_headline: {
-			url: '/artikel/seminar-umkm/seminar-umkm.png',
+			url: '/artikel/seminar-umkm/seminar-umkm2.jpeg',
 			deskripsi: 'Bemunmarchive',
 		},
 		deskripsi_satu:
@@ -91,7 +91,7 @@ export const artikel = [
 		title: 'National Advanced Training ke XVI, Badan Eksekutif Mahasiswa Universitas Negeri Makassar',
 		tanggal: '21 November 2024',
 		gambar_headline: {
-			url: '/artikel/advance-training/headline.png',
+			url: '/artikel/advance-training/headline2.jpeg',
 			deskripsi: 'Bemunmarchive',
 		},
 		gambar_dua: {
@@ -109,7 +109,7 @@ export const artikel = [
 		title: 'BEM UNM Gelar Seminar Riset Nasional: Membangun Budaya Riset di Kalangan Mahasiswa',
 		tanggal: '10 Oktober 2024',
 		gambar_headline: {
-			url: '/artikel/workshop-riset/headline.png',
+			url: '/artikel/workshop-riset/headline2.jpeg',
 			deskripsi: 'Bemunmarchive',
 		},
 		gambar_dua: {
